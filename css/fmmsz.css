@@ -26,9 +26,13 @@ body{
 .top p{
     color: #4ebbfe;
 }
+.dianzi{
+    width: 7.5rem;
+    height: 2.11rem;
+}
 .wode{
     width:7.5rem;
-    height:1.58rem;
+    height:1.08rem;
   font-size: 0.26rem;
   display: flex;
   align-items: center;
@@ -54,7 +58,7 @@ body{
     width: 0.1rem;
     height: 0.05rem;
     border-radius:0.3rem;
-    background: #44b5ff;
+    background:#34da87;
     margin:0  0.1rem;
   
 }
@@ -65,20 +69,63 @@ body{
     color: #4f5b64;
 }
 .gang{
-    width: 6.96rem;
+    width:4.84rem;
 	height: 0.02rem;
 	background-color: #000000;
     opacity: 0.05;
     margin: auto;
-    margin-bottom: 0.78rem;
+    margin-bottom: 0.39rem;
 }
-.wenzi{
-    width: 6.42rem;
-    height: 3.85rem;
+.yuan{
+    width: 3.85rem;
+    height: 0.46rem;
     margin: auto;
-    font-size: 0.26rem;
-    color: #000000;
-    opacity: 0.5;
-    line-height: 0.4rem;
-    font-weight: bold;
+}
+
+.yuan .one{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background: #1c8adf;
+    border: 0.13rem solid #2fa5ff;
+    float: left;
+}
+.yuan .one .son{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #FFF;
+    margin: auto;
+    margin-top: 0.05rem;
+
+}
+.yuan .two{
+    width: 0.46rem;
+    height: 0.46rem;
+    border-radius: 50%;
+    background-color: #e3eef6;
+    margin-left: 0.37rem;
+    float: left;
+   
+}
+.wanc{
+    font-size: 0.22rem;
+    line-height: 0.6rem;
+    width: 4.54rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background: #37e06f;
+        margin:1.23rem auto 1.75rem;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+}
+.bottom{
+    width: 7.5rem;
+    height: 4.32rem;
+  
+}
+.bottom img{
+    width: 7.5rem;
+    height: 4.32rem;
 }
