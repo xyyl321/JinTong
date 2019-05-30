@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body{
+    color:#fbfeff;
+}
+
+/* 导航栏开始 */
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:#fbfeff;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    position:fixed;
+    top:0;
+    text-align:center;
+    line-height:0.88rem;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+    font-size:0.36rem;
+    color:#4ebbfe;
+}
+.header .iconzuojiantou{
+    font-size:0.38rem;
+    position: absolute;
+    left:0.24rem;
+    top:0.06rem;
+    color:#36a8fe;
+}
+
+/*退款信息卡片*/
+.tk{
+    width:7.02rem;
+    height:3rem;  
+    margin-left:0.24rem;
+    margin-top:1.4rem;
+    box-sizing:border-box;
+    border-bottom:0.02rem solid #f1f4f5;
+}
+.tk .kap{
+    height:1.8rem;
+    width:7.02rem;
+    box-sizing:border-box;
+}
+.tk .kap .left{
+   width:1.74rem;
+   height:1.74rem; 
+   border-radius:0.2rem;
+   overflow:hidden;
+   float:left;
+   margin-right:0.26rem;
+   box-shadow:0 0 0.1rem 0.01rem #f5f8f9; 
+}
+.tk .kap .right{
+    width:5.02rem;
+    height:1.78rem;
+    float:left;
+}
+.tk .kap .right .name{
+    height:0.44rem;
+    width:5.02rem;
+    color:#646666;
+    font-size:0.3rem;
+    font-weight:bold;
+}
+.tk .kap .right .lw{
+    height:0.36rem;
+    width:5.02rem;
+}
+.tk .kap .right .lw .yuan{
+    height:0.06rem;
+    width:0.06rem;
+    background-color:#36a8fe;
+    border-radius:0.4rem;
+    box-shadow:0 0.04rem 0.08rem 0.01rem #d9f0ff;
+    float:left;
+    margin:0.14rem 0.1rem 0 0;
+}
+.tk .kap .right .lw .wenz{
+    font-size:0.26rem;
+    color:#36a8fe;
+    height:0.36rem;
+    line-height:0.36rem;
+    float:left;
+}
+.tk .kap .right .lw .wenz2{
+    font-size:0.2rem;
+    color:#afb1b2;
+    height:0.36rem;
+    line-height:0.36rem;
+    float:left;
+}
+.tk .kap .right .price{
+    height:0.32rem;
+    width:100%;
+    margin-top:0.3rem;
+}
+.tk .kap .right .price .l{
+    height:100%;
+    widows: 30%;
+    float:left;
+}
+.tk .kap .right .price .l .yuan1{
+    height:0.06rem;
+    width:0.06rem;
+    background-color:#36a8fe;
+    border-radius:0.4rem;
+    box-shadow:0 0.04rem 0.08rem 0.01rem #d9f0ff;
+    float:left;
+    margin:0.12rem 0.1rem 0 0;
+}
+.tk .kap .right .price .l .wenz3{
+    font-size:0.26rem;
+    color:#afb1b2;
+    height:0.32rem;
+    line-height:0.32rem;
+    float:left;
+}
+.tk .kap .right .price .r{
+    width:30%;
+    height:100%;
+    float:right;
+}
+.tk .kap .right .price .r .yuan2{
+    height:0.06rem;
+    width:0.06rem;
+    background-color:#36d681;
+    border-radius:0.4rem;
+    box-shadow:0 0.04rem 0.08rem 0.01rem #c7f3de;
+    float:right;
+    margin:0.16rem 0.1rem 0 0;
+}
+.tk .kap .right .price .r .wenz3{
+    height:0.32rem;
+    float:right;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.tk .kap .right .price .r .wenz3 span{
+    font-size:0.3rem;
+    color:#afb1b2;
+   /* height:0.32rem;
+    line-height:0.32rem;*/
+    
+}
+.tk .kap .right .price .r .wenz3 .iconfont{
+    font-size:0.1rem;
+    color:#afb1b2;
+    margin-top:0.06rem;
+  /*  height:0.32rem;
+    line-height:0.32rem;*/
+}
+.tk .shi{
+    height:1.2rem;
+    width:7.02rem;
+    float:right;
+}
+.tk .shi .yuan3{
+    height:0.06rem;
+    width:0.06rem;
+    background-color:#36d681;
+    border-radius:0.4rem;
+    box-shadow:0 0.04rem 0.08rem 0.01rem #c7f3de;
+    float:right;
+    margin:0.54rem 0.1rem 0 0;
+}
+.tk .shi .wenz4{
+    float:right;
+    color:#fbb548;
+    font-size:0.24rem;
+    height:1.2rem;
+    line-height:1.2rem;
+}
+/*仅退款*/
+.jtk{
+    height:1.26rem;
+    margin-top:0.38rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+}
+.jtk a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.jtk a .both{
+    width:0.1rem;
+    height:0.06rem;
+    float:left;
+    border-radius:0.08rem;
+    background-color:#44b5ff;
+    box-shadow:0 0.04rem 0.08rem 0.01rem #c3e8ff;
+    margin:0.16rem 0.1rem 0 0.1rem ;
+}
+.jtk a .both1{
+    background-color:#44d98a;
+    box-shadow:0 0.04rem 0.08rem 0.01rem #bff2d9;
+}
+.jtk a .hs{
+    float:left;
+    height:0.4rem;
+    width:6rem;
+    color:#41b2fc;
+    font-size:0.26rem;
+    font-weight:bold;
+    line-height:0.4rem;
+}
+.jtk a .hs1{
+    color:#44d98a;
+}
+.jtk a .text{
+    margin-left:0.26rem;
+    color:#afb1b2;
+    font-size:0.22rem;
+    float:left;
+    height:0.4rem;
+    line-height:0.4rem;
+}
