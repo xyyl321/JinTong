@@ -31,11 +31,16 @@ body{
 }
 
 /*退款信息卡片*/
+.kp{
+    width:7.5rem;
+    height:3rem;
+    margin-top:1.4rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+}
 .tk{
     width:7.02rem;
     height:3rem;  
-    margin-left:0.24rem;
-    margin-top:1.4rem;
     box-sizing:border-box;
     border-bottom:0.02rem solid #f1f4f5;
 }
@@ -321,10 +326,16 @@ body{
     height:0.96rem;
 }
 /*图*/
+.sc{
+    height:1.02rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+}
 .shangc{
     height:1.02rem;
     width:1.02rem;
-    margin-left: 0.48rem;
+    margin-left: 0.24rem;
 }
 .shangc .tu{
     height:1.02rem;
