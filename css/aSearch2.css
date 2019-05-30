@@ -1,0 +1,101 @@
+/* header */
+.header{
+    width: 100%;
+    height: 0.88rem;
+    float: left;
+    background: #fff;
+    position: fixed;
+    z-index: 9;
+}
+.header_w{
+    width: 7.1rem;
+    height: 100%;
+    text-align: center;
+    line-height: 0.88rem;
+    margin: 0 auto;
+    font-size: 0.36rem;
+    color: #4ebbfe;
+}
+.header_w a .iconfont{
+    font-size: 0.4rem;
+    float: left;
+    color: #4ebbfe;
+    margin-left: 0.24rem;
+    display: block;
+}
+/* 搜索框 */
+.select{
+    width: 100%;
+    height: 0.6rem;
+    float: left;
+    margin-top: 0.88rem;
+}
+.select_w{
+    width: 7.1rem;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 0.6rem;
+}
+.select_w .put{
+    width: 7.1rem;
+    height: 0.6rem;
+    float: right;
+    position: relative;
+}
+.select_w .put input{
+    width: 7.1rem;
+    height: 0.6rem;
+    float: left;
+    border-radius: 0.3rem;
+    background: #f2faff;
+    border: #e8f6ff;
+    outline: none;
+    padding-left: 0.35rem;
+    box-sizing: border-box;
+    float: left;
+}
+.select_w .put .iconfont{
+    position: absolute;
+    top: 0;
+    right: 0.4rem;
+    font-size: 0.32rem;
+    color: #99d7b4;
+}
+/* content */
+.address{
+    width: 100%;
+    height: 5.8rem;
+    float: left;
+    margin-top: 0.2rem;
+}
+.address_w{
+    width: 7.1rem;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0.1rem 0.1rem 0.01rem #eff9ff inset;
+    line-height: 0.9rem;
+    position: relative;
+}
+.address_w img{
+    width: 5rem;
+    height: 4rem;
+    position: absolute;
+    left: 1rem;
+    bottom: 0;
+}
+.reget{
+    width: 100%;
+    height: 0.62rem;
+    float: left;
+}
+ .reget_w{
+    width: 2.6rem;
+    height: 0.62rem;
+    margin: 0 auto;
+}
+.reget_w span{
+    font-size: 0.18rem;
+    color: #979899;
+    float: left;
+}

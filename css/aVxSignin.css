@@ -1,0 +1,101 @@
+/* header */
+.header{
+    width: 100%;
+    height: 0.88rem;
+    float: left;
+    background: #fff;
+    position: fixed;
+    z-index: 9;
+}
+.header_w{
+    width: 7.1rem;
+    height: 100%;
+    text-align: center;
+    line-height: 0.88rem;
+    margin: 0 auto;
+    font-size: 0.36rem;
+    color: #4ebbfe;
+}
+.header_w a .iconfont{
+    font-size: 0.4rem;
+    float: left;
+    color: #4ebbfe;
+    margin-left: 0.24rem;
+    display: block;
+}
+/* content */
+.address{
+    width: 100%;
+    height: 6.4rem;
+    float: left;
+    margin-top: 0.88rem;
+}
+.address_w{
+    width: 5.15rem;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0.1rem 0.1rem 0.01rem #eff9ff inset;
+    line-height: 0.9rem;
+    position: relative;
+}
+.address_w .to{
+    width: 100%;
+    height: 2.86rem;
+    float: left;
+    border-bottom: 0.01rem solid #eef1f2;
+}
+.address_w .to span{
+    color: #646666;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 4.8rem;
+}
+.address_w .pul{
+    width: 100%;
+    height: 3.53rem;
+    float: left;
+}
+.address_w .pul .iconfont{
+    font-size: 0.88rem;
+    color:  #36c444;
+    float: left;
+    margin: 0.3rem 2.16rem 0.38rem;
+
+}
+.address_w .pul .qx{
+    width: 4.5rem;
+    height: 0.7rem;
+    border-bottom: 0.01rem solid #eef1f2;
+    float: left;
+    color: #979899;
+    font-size: 0.26rem;
+    text-align: center;
+    font-weight: blod;
+}
+.address_w .pul .qx span{
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #36d681;
+    float: left;
+    margin-top: 0.4rem;
+    margin-left: 0.4rem;
+}
+.address_w .pul .sure{
+    width: 100%;
+    height: 0.52rem;
+    float: left;
+    margin-top: 0.5rem;
+}
+.address_w .pul .sure a span{
+    width: 1.32rem;
+    height: 0.52rem;
+    display: block;
+    border-radius: 0.26rem;
+    background: #e7f6ff;
+    font-size: 0.2rem;
+    line-height: 0.5rem;
+    color: #4ebbfe;
+    float: left;
+    margin-left: 0.9rem;;
+}
