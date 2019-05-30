@@ -1,0 +1,337 @@
+.dd{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: #FBFEFF;
+    padding:0 0.24rem;
+    font-size: 0.36rem;
+   box-sizing: border-box;
+    text-align: center;
+    line-height: 0.88rem;
+     font-weight: bold;
+    color: #58BFFE;
+}
+.dd a{
+    float: left;
+    line-height: 0.88rem;
+    font-size: 0.3rem;
+    color: #36A8FE;
+}
+.ss{
+    width: 7rem;
+    height: 0.68rem;
+    background: #58BFFE;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    background-color: #ebf7ff;
+    border: solid 3px rgba(55, 169, 254, 0.17);
+}
+.ss input{
+    width: 5.5rem;
+    height: 0.38rem;
+    border-radius: 0.5rem;
+    margin-top: 0.05rem;
+    border:0;
+    background-color: #ebf7ff;
+    float: left;
+}
+.ss .kk{
+    width: 0.8rem;
+    height: 0.44rem;
+    background: #A4E0BD;
+    border-radius: 0.5rem;
+    float: right;
+    margin-top: 0.05rem;
+    text-align: center;
+}
+.ss .kk i{
+    font-size: 0.24rem;
+    line-height: 0.44rem;
+    color: #E5F6EC;
+}
+.hg{
+    width:7.5rem;
+    height:2.5rem;
+    /* background-color: aquamarine; */
+    margin-top:10px;
+    padding:0.01rem;
+}
+.hg .he{
+    width:1.86rem;
+    height:1.99rem;
+    /* background-color: turquoise; */
+    margin-left:10px;
+    margin-top:10px;
+    border-radius: 0.2rem;
+    display:inline-block;
+}
+.hg .he img{
+    width:1.86rem;
+    height:1.99rem;
+    border-radius: 0.2rem;
+}
+.hg .ho{
+    width:5.4rem;
+    height:1.99rem;
+    /* background-color:thistle; */
+    float:right;
+    margin-top:10px;
+    position: relative;
+}
+.hg .ho .zi{
+    line-height: 40px;
+    margin-left:10px;
+    color:#646666;
+    font-weight: bolder;
+}
+.hg .ho .ji{
+    width:0.1rem;
+    height:0.1rem;
+    background-color:#44b5ff;
+    margin-left:10px;
+    border-radius: 0.2rem;
+    display:inline-block;
+}
+.hg .ho .ju{
+    font-size: 12px;
+    color:#AFB1B2;
+}
+.hg .ho .jo{
+    font-size: 12px;
+    color:#36a8fe;
+}
+.hg .ho .ji1{
+    width:0.1rem;
+    height:0.1rem;
+    background-color:#44b5ff;
+    margin-left:0.55rem;
+    border-radius: 0.2rem;
+    display:inline-block;
+}
+.hg .ho .ji2{
+    width:0.1rem;
+    height:0.1rem;
+    background-color:#44b5ff;
+    margin-left:0.45rem;
+    border-radius: 0.2rem;
+    display:inline-block;
+}
+.hg .ho .icon-shijianzhongbiao2{
+    color:#a4e0bd;
+    margin-left:10px;
+    line-height: 27px;
+}
+.hg .ho .jp{
+    font-size: 14px;
+    color:#a4e0bd;
+}
+.hg .ho .jt{
+    font-size: 14px;
+    color:#a4e0bd;
+}
+.hg .ho .je{
+    width:2rem;
+    height:0.4rem;
+    background-color: #E7F6FF;
+    margin-left:5px;
+    border-radius: 0.2rem;
+    line-height: 0.4rem;
+    text-align: center;
+}
+.hg .ho .je .jw{
+    font-size: 0.14rem;
+    margin-left:5px;
+    color:#3bacfe;
+}
+.hg .ho .hq{
+    width:1.24rem;
+    height:0.45rem;
+    background-color: #3bacfe;
+    float: right;
+    position: absolute;
+    top:80px;
+    right:5px;
+    border-radius: 0.2rem;
+    line-height: 0.4rem;
+    text-align: center
+}
+.hg .ho .hq .ha{
+    color:white;
+    font-size: 0.24rem;
+}
+.xi{
+    width:7.5rem;
+    height:8.3rem;
+    /* background-color: springgreen; */
+    position: relative;
+}
+.xi .yu{
+    width:7.5rem;
+    height:0.88rem;
+}
+.xi .yu span{
+    font-size: 0.24rem;
+}
+.xi .yu .ky{
+    width: 1.41rem;
+    height:0.52rem;
+    background-color: #E7F6FF;
+    border-radius: 0.3rem;
+    display:inline-block;
+    position: absolute;
+    left:1rem;
+    top:0.1rem;
+    line-height: 0.5rem;
+    text-align: center
+}
+.xi .yu .ky1{
+    width: 1.41rem;
+    height:0.52rem;
+    background-color: #E7F6FF;
+    border-radius: 0.3rem;
+    display:inline-block;
+    position: absolute;
+    left:3rem;
+    top:0.1rem;
+    line-height: 0.5rem;
+    text-align: center
+}
+.xi .yu .ky2{
+    width: 1.41rem;
+    height:0.52rem;
+    background-color: #3bacfe;
+    border-radius: 0.3rem;
+    display:inline-block;
+    position: absolute;
+    left:5rem;
+    top:0.1rem;
+    line-height: 0.5rem;
+    text-align: center;
+}
+.xi .yu .ky .ki{
+    color:#3bacfe;
+}
+.xi .yu .ky1 .ki{
+    color:#3bacfe;
+    margin-left:0.1rem;
+    line-height: 0.28rem;
+}
+.xi .yu .ky2 .ki1{
+    color:white;
+    text-align: center;
+}
+.xi .ch{
+    width:7.5rem;
+    height:1rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.xi .cj{
+    width:7rem;
+    height:0.5rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.6rem;
+}
+.xi .ch span{
+    font-size: 0.24rem;
+}
+.xi .ch .zi{
+    margin-left:0.3rem;
+    color:#3bacfe;
+}
+.xi .ch .zi1{
+    margin-left:0.9rem;
+    color:#88CDFE;
+}
+.xi .xia{
+    width:7rem;
+    height:0.5rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.xi .ch .xia .zi{
+    margin-left:0.3rem;
+    color:#3bacfe;
+}
+.xi .ch .xia .zi1{
+    margin-left:1rem;
+    color:#88CDFE;
+}
+.xi .tiao{
+    width:0.8rem;
+    height:0.07rem;
+    background-color: #3bacfe;
+    position: absolute;
+    top:1.8rem;
+    margin-left: 0.1rem;
+}
+.js{
+    width:7.5rem;
+    height:2.5rem;
+    /* background-color: springgreen; */
+    margin-top:0.2rem;
+    padding:0.01rem
+}
+.js .jk{
+    width:1.2rem;
+    height:1.2rem;
+    background-color: thistle;
+    margin-left:0.2rem;
+    margin-top:0.2rem;
+    border-radius: 0.8rem;
+    display:inline-block;
+}
+.js .jk img{
+    width:1.2rem;
+    height:1.2rem;
+    border-radius: 0.8rem;
+}
+.js .jl{
+    width:5.8rem;
+    height:2.5rem;
+    /* background-color: tan; */
+    float: right;
+}
+.js .jl .jh{
+    width:5.8rem;
+    height:0.88rem;
+    /* background-color: skyblue; */
+    line-height: 1.2rem;
+}
+.js .jl .jh .jf{
+    font-size: 0.14rem;
+    margin-left:0.1rem;
+    color:#cfcfcf;
+}
+.js .jl .jh .icon-xingxing{
+    margin-left:0.09rem;
+}
+.js .jl .jh .xing1{
+    color:#36a8fe;
+}
+.js .jl .jh .xing2{
+    color:#e6e6e6;
+}
+.js .jl .jh .hf{
+    margin-left:3rem;
+    font-size: 0.18rem;
+    color:#36a8fe;
+}
+.js .ll{
+    width:5.8rem;
+    height:1.62rem;
+    /* background-color: sienna; */
+    line-height: 0.6rem;
+}
+.js .ll .lk{
+    color:#6F7171;
+    font-size: 0.24rem;
+}
+.js .ll .kk{
+    color: #000000;
+    opacity: 0.3;
+    font-size: 0.23rem;
+}
