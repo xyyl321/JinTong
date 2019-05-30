@@ -1,0 +1,265 @@
+body{
+    background: #FBFEFF;
+}
+
+.top{
+    height: 1.32rem;
+    width: 7.5rem;
+    background: #fbfeff;
+    font-weight: bold;
+    text-align: center;
+    position:relative;
+    font-size: 0.38rem;
+    line-height: 1.32rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    position: relative;
+}
+.top i{
+   color:  #36a8fe;
+   width: 0.25rem;
+   height: 0.42rem;
+   position: absolute;
+   left: 0.24rem;
+   bottom: 0.9rem;
+}
+
+.top p{
+    color: #4ebbfe;
+}
+.gang{
+    width: 6.96rem;
+	height: 0.02rem;
+	background-color: #000000;
+    opacity: 0.05;
+    margin: auto;
+   
+}
+.zhaiji{
+    width: 7.5rem;
+    height: 0.86rem;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+    color: #3bacfe;
+    font-weight: bold;
+    line-height: 0.86rem;
+    font-size: 0.24rem;
+
+}
+.duigou{
+    height: 0.86rem;
+    width: 4rem;
+    float:left;
+}
+
+.duigou .iconduigou{
+    width: 0.24rem;
+    height: 0.24rem;
+    color: #37e06f;
+        float: left;
+}
+.duigou .iconyou{
+    width: 0.1rem;
+    height: 0.17rem;
+    float: left;
+    color: #36a8fe;
+}
+.duigou span{
+    font-size: 0.24rem;
+    margin: 0 0.13rem 0 0.3rem;
+    float: left;
+}
+.zhaiji .sangchu .iconshanchu{
+    float: right;
+
+}
+.shuilon{
+    width: 7.5rem;
+    height: 1.74rem;
+    font-weight: bold;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+}
+ .yuan{
+    width: 0.24rem;
+    height: 0.24rem;
+    display:inline-block;
+    background-color: #e7f6ff;
+    margin-top: 0.77rem;
+    float: left;
+    border-radius: 50%;
+
+}
+.shuilon img{
+    width: 1.74rem;
+    height: 1.74rem;
+    float: left;
+    margin:0 0.25rem;
+}
+.shuilon .p{
+    float: left;
+    width: 4.52rem;
+  
+    
+    margin-top: 0.45rem;
+}
+.shuilon .p span{
+    color: #000000;
+    opacity: 0.6;
+    font-size: 0.3rem;
+}
+.shuilon .p .jij{
+    float: right;
+    font-size: 0.26rem;
+   color: #36a8fe;
+
+}
+.shuilon .p .jij span{
+    float: right;
+    margin: 0 0.17rem;
+
+}
+
+.shuilon .p .iconjianhaojianying {
+    float: right;
+    color: #9dd9ff;
+    box-shadow:rgba(59, 172, 254, 0.43);
+   
+
+    
+}
+.shuilon .p .iconjiahao {
+    float: right;
+    color: #36a8fe;
+    box-shadow:rgba(59, 172, 254, 0.43);
+}
+
+.shuilon p{
+    font-size: 0.26rem;
+    color: #8e9397;
+    opacity: 0.8;
+    line-height: 0.78rem;
+}
+.heji{
+    height: 0.85rem;
+    width: 7.5rem;
+    padding: 0 0.25rem 0 0.79rem;
+    box-sizing: border-box;
+    line-height: 0.85rem;
+}
+.heji p{
+    width: 1.44rem;
+    height: 0.44rem;
+    background: #3bacfe;
+    color: #ffffff;
+    font-size: 0.2rem;
+    border-radius: 0.22rem;
+    float: right;
+    line-height: 0.44rem;
+    text-align: center;
+    margin-top:0.2rem;
+
+}
+.heji span{
+    color:#3bacfe;
+    font-size: 0.24rem;
+
+}
+.heji .span{
+    color: #36a8fe;
+    font-size: 0.3rem;
+}
+.yua{
+    float: left;
+    width: 0.24rem;
+    height: 0.24rem;
+    display: inline-block;
+    background-color: #e7f6ff;
+    margin-top: 0.3rem;
+    float: left;
+    border-radius: 50%;
+}
+.quanx{
+    width: 7.5rem;
+    height: 0.24rem;
+    font-weight: bold;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+    font-size: 0.24rem;
+    color: #3bacfe;
+    margin: 2.93rem 0  0.5rem 0;
+}
+.yuana{
+    float: left;
+    width: 0.24rem;
+    height: 0.24rem;
+    display: inline-block;
+    background-color: #e7f6ff;
+    margin-top: 0.07rem;
+    float: left;
+    border-radius: 50%;
+    margin-right: 0.29rem;
+}
+.zuihou{
+    width: 7.5rem;
+    height: 1.08rem;
+    font-weight: bold;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+    font-size: 0.24rem;
+    color: #3bacfe;
+  background: #f1faff;
+    position: relative;
+ 
+}
+.zuihou span{
+    color:#3bacfe;
+    font-size: 0.24rem;
+}
+.zuihou .span{
+    color: #36a8fe;
+    font-size: 0.3rem;
+}
+.yuanav{
+    float: left;
+    width: 0.05rem;
+    height: 0.05rem;
+    display: inline-block;
+    background-color: #44b5ff;
+    margin-top: 0.2rem;
+    float: left;
+    border-radius: 50%;
+    margin-right: 0.09rem;
+}
+.yunf{
+    margin-top: 0.18rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    font-size:0.2rem;
+}
+.zuihou p{
+    width: 3.8rem;
+    height: 0.6rem;
+    background: #31d69a;
+    color: #ffffff;
+    font-size: 0.24rem;
+    border-radius: 0.3rem;
+    float: right;
+    line-height: 0.6rem;
+    text-align: center;
+    margin-top:0.2rem;
+    position: absolute;
+   bottom: 0.22rem;
+    right: 0.24rem;
+}
+
+
+
+
+
+
+
+
+.zxcv{
+    width: 7.5rem;
+    height: 0.32rem;
+}
