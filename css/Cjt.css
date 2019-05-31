@@ -96,6 +96,8 @@
     width: 7.5rem;
     height: 2rem;
     margin-top: 0.2rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
 }
 .sp .spt{
     width: 1.97rem;
@@ -187,29 +189,32 @@
     font-weight: bold
 }
 .dh{
-    width: 7.5rem;
-    height: 1rem;
+    width:7.5rem;
+    height:0.98rem;
     background: #F6FBFF;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     display: flex;
     justify-content: space-around;
-}
-.dh .dh1{
-    width: 0.94rem;
-    height: 1rem;
-}
-.dh .dh1 a{
+    }
+    .dh .dh1{
+    width:0.94rem;
+    height:0.98rem;
+    }
+    .dh .dh1 a{
+    display:block;
+    width:0.94rem;
+    height:0.98rem;
+    display:flex;
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.dh .dh1 i{
+    justify-content:center;
+    align-items:center;
+    }
+    .dh .dh1 i{
     font-size: 0.5rem;
-    color: #62C6FE;
-}
-.dh .dh1 span{
+    color: #BAE6FF;
+    }
+    .dh .dh1 span{
     font-size: 0.26rem;
-    color: #62C6FE;
-}
+    color: #BAE6FF;
+    }
