@@ -16,12 +16,12 @@
     font-size: 0.36rem;
     color: #4ebbfe;
 }
-.header_w a .iconfont{
+.header_w a .iconzuojiantou{
     font-size: 0.4rem;
-    float: left;
+    position:absolute;
+    left: 0.24rem;
     color: #4ebbfe;
-    margin-left: 0.24rem;
-    display: block;
+    
 }
 /* 搜索框 */
 .select{

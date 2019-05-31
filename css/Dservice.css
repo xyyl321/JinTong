@@ -12,18 +12,14 @@ body{
     top:0;
     text-align:center;
     line-height:0.88rem;
-    box-shadow: 0px 3px 43px 0px 
-        rgba(41, 167, 255, 0.13);
     z-index:1 ;
 }
 .header span{
     font-size:0.36rem;
     color:#4ebbfe;
-    /* margin-right:0.3rem; */
 }
 .header .iconzuojiantou{
-    font-size:0.38rem;
-    /* float:left; */
+    font-size:0.4rem;
     color:#36a8fe;
     position: absolute;
     left:0.18rem;

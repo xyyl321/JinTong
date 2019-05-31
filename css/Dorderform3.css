@@ -12,8 +12,7 @@ body{
     top:0;
     text-align:center;
     line-height:0.88rem;
-    box-shadow: 0px 3px 43px 0px 
-        rgba(41, 167, 255, 0.13);
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
     z-index:1 ;
 }
 .header span{
@@ -22,7 +21,7 @@ body{
     /* margin-right:0.3rem; */
 }
 .header .iconzuojiantou{
-    font-size:0.38rem;
+    font-size:0.4rem;
     /* float:left; */
     color:#36a8fe;
     position: absolute;
@@ -270,8 +269,8 @@ body{
 /* 支付结束 */
 /* Tab栏开始 */
 .dh{
-    width: 7.5rem;
-    height: 1rem;
+    width:7.5rem;
+    height:0.98rem;
     background: #F6FBFF;
     position: fixed;
     bottom: 0;
@@ -279,14 +278,17 @@ body{
     justify-content: space-around;
 }
 .dh .dh1{
-    width: 0.94rem;
-    height: 1rem;
+    width:0.94rem;
+    height:0.98rem;
 }
 .dh .dh1 a{
+    display:block;
+    width:0.94rem;
+    height:0.98rem;
+    display:flex;
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
 }
 .dh .dh1 i{
     font-size: 0.5rem;
@@ -296,5 +298,3 @@ body{
     font-size: 0.26rem;
     color: #BAE6FF;
 }
-/* Tab栏结束 */
-

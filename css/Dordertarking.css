@@ -12,8 +12,7 @@ body{
     top:0;
     text-align:center;
     line-height:0.88rem;
-    box-shadow: 0px 3px 43px 0px 
-        rgba(41, 167, 255, 0.13);
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
     z-index: 1;
 }
 .header span{
@@ -21,15 +20,16 @@ body{
     color:#4ebbfe;
 }
 .header .iconzuojiantou{
-    font-size:0.38rem;
-    float:left;
+    font-size:0.4rem;
+    position:absolute;
+    left:0.24rem;
     color:#36a8fe;
 }
-.header .iconsandian{
+/* .header .iconsandian{
     font-size:0.30rem;
     float:right;
     color:#46b7f8;
-}
+} */
 /* 导航栏结束 */
 /* 等待接单开始 */
 .order{
@@ -55,7 +55,7 @@ body{
     height:0.1rem;
     background:#fbb548;
     border-radius:50%;
-    margin:0.032rem 0.02rem;
+    margin:0.032rem 0.03rem;
 }
 .order .round2{
     width:0.25rem;
@@ -73,7 +73,7 @@ body{
     height:0.1rem;
     background:#e5e5e5;
     border-radius:50%;
-    margin:0.032rem 0.02rem;
+    margin:0.032rem 0.03rem;
 }
 .order .round3{
     top:3.76rem;
