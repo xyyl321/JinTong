@@ -6,6 +6,10 @@
     background: #fff;
     position: fixed;
     z-index: 9;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41,167,255,0.13);
+}
+body{
+    background:#FBFEFF;
 }
 .header_w{
     width: 7.1rem;
@@ -34,7 +38,6 @@
     height: 100%;
     margin: 0 auto;
     text-align: center;
-    box-shadow: 0 0.03rem 0.43rem 0 rgba(41,167,255,0.13) inset;
     line-height: 0.9rem;
     position: relative;
 }
