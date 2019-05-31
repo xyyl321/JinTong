@@ -1,0 +1,66 @@
+@import "fgrzl.css";
+
+.xinxi{
+    width:7.5rem;
+    height:auto;
+}
+.hang .left .name{
+    color:rgba(0,0,0,0.7);
+}
+.hang .you .red{
+    font-size:0.36rem;
+    color:#FD624D;
+}
+
+.mineBox{
+    width:7.5rem;
+    height:3.98rem;
+    background-image:url("../img/fgrzxd.png");
+    background-size:6.81rem 2.24rem;
+    background-repeat:no-repeat;
+    background-position:center;
+    overflow:hidden;
+}
+.mineBox .card{
+    width:6.41rem;
+    height:1.85rem;
+    border-radius:0.1rem;
+    background-color:#fff;
+    box-shadow:0 0 0.25rem 0.01rem rgba(226,226,226,0.5);
+    margin:0.32rem auto 0;
+}
+
+
+
+
+/* Tab栏 */
+.dh{
+    width:7.5rem;
+    height:0.98rem;
+    background: #F6FBFF;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.dh .dh1{
+    width:0.94rem;
+    height:0.98rem;
+}
+.dh .dh1 a{
+    display:block;
+    width:0.94rem;
+    height:0.98rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.dh .dh1 i{
+    font-size: 0.5rem;
+    color: #BAE6FF;
+}
+.dh .dh1 span{
+    font-size: 0.26rem;
+    color: #BAE6FF;
+}

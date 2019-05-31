@@ -41,20 +41,24 @@ body{
     text-align:center;
 }
 /*还剩时间*/
-.time{
+.t{
+    height:0.7rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+}
+.t .time{
     height:0.7rem;
     width:7.02rem;
-    margin-left:0.24rem;
     padding-top:0.1rem;
     border-top:0.02rem solid #f1f4f5;
     box-sizing:border-box;
-
 }
-.time .bao{
+.t .time .bao{
     width:3.7rem;
     margin:0 auto;
 }
-.time .bao .hs{
+.t .time .bao .hs{
     float:left;
     color:#4f5b64;
     font-size:0.26rem;
@@ -68,7 +72,7 @@ body{
     font-size:0.4rem;
     margin:0 0.06rem;
 }
-.time .both{
+.t .time .both{
     width:0.1rem;
     height:0.06rem;
     float:left;
@@ -80,8 +84,9 @@ body{
 /*文字部分*/
 .text{
     height:4.34rem;
-    width:7.02rem;
-   margin-left:0.24rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
    overflow:hidden;
 }
 .text .text1{
@@ -91,10 +96,15 @@ body{
     margin-top:0.4rem;
 }
 /*按钮*/
+.an{
+    height:1.44rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+}
 .ann{
     height:1.44rem;
     width:7.02rem;
-    margin-left:0.24rem;
     border-bottom:0.02rem solid #f1f4f5;
     padding-top:0.1rem;
     box-sizing:border-box;
@@ -281,7 +291,7 @@ margin-right:0.2rem;
     border-radius:0.4rem;
     box-shadow:0 0.04rem 0.08rem 0.01rem #c7f3de;
     float:right;
-    margin:0.42rem 0.1rem 0 0;
+    margin:0.5rem 0.1rem 0 0;
 }
 .tk .shi .wenz4{
     float:right;

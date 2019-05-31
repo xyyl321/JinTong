@@ -59,6 +59,7 @@
 
 6、弓凯（11,12行）
     个人中心 fgrzx
+    个人资料 fgrzl
     密码设置 fmmsz
     密码设置 fmmszone
     修改密码 fxgmm

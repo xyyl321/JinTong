@@ -5,7 +5,11 @@
     float: left;
     background: #fff;
     position: fixed;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41,167,255,0.13);
     z-index: 9;
+}
+body{
+    background:#FBFEFF;
 }
 .header_w{
     width: 7.1rem;
@@ -20,7 +24,6 @@
     font-size: 0.4rem;
     float: left;
     color: #4ebbfe;
-    margin-left: 0.24rem;
     display: block;
 }
 /* content */
@@ -28,7 +31,6 @@
     width: 100%;
     height: 6.4rem;
     float: left;
-    box-shadow: 0 0.1rem 0.1rem 0.01rem #eff9ff inset;
     margin-top: 0.88rem;
 }
 .address_w{

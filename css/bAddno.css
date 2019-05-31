@@ -1,11 +1,11 @@
 body{
-    background-color:#FAFDFF;
+    background-color:#FBFEFF;
 }
 header{
     width:7.5rem;
     height:0.88rem;
-    background-color:#FAFDFF;
-    box-shadow:0 0 0.43rem 0.03rem rgba(44,167,253,0.13);
+    background-color:#FBFEFF;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
     font-size:0.38rem;
     color:#4FBAFC;
     text-align:center;
@@ -14,9 +14,9 @@ header{
 }
 header .back{
     display:block;
-    width:0.5rem;
-    height:0.5rem;
-    line-height:0.5rem;
+    width:0.4rem;
+    height:0.4rem;
+    line-height:0.4rem;
     position:absolute;
     top:0;
     bottom:0;
@@ -24,7 +24,7 @@ header .back{
     left:0.24rem;
 }
 header .iconzuojiantou{
-    font-size:0.38rem;
+    font-size:0.4rem;
     color:#4FBAFC;
 }
 .empty{

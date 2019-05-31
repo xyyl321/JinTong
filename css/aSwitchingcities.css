@@ -7,6 +7,9 @@
     position: fixed;
     z-index: 9;
 }
+body{
+    background:#FBFEFF;
+}
 .header_w{
     width: 7.1rem;
     height: 100%;
@@ -20,7 +23,6 @@
     font-size: 0.4rem;
     float: left;
     color: #4ebbfe;
-    margin-left: 0.24rem;
     display: block;
 }
 /* 搜索框 */
@@ -75,7 +77,6 @@
     text-align: center;
     line-height: 1.35rem;
     border-bottom: 0.01rem solid #ecf8ff;
-    box-shadow: 0 0.1rem 0.1rem 0.01rem #eff9ff inset;
 }
 .posi_w .yuan{
     width: 0.08rem;
@@ -165,7 +166,7 @@ body{
     width: 0.12rem;
     height: 9.5rem;
     position: absolute;
-    right: 0.2rem;
+    right: 0.24rem;
     top: 3.4rem;
 }
 .left span{

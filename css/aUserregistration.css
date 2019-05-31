@@ -7,6 +7,9 @@
     position: fixed;
     z-index: 9;
 }
+body{
+    background:#FBFEFF;
+}
 .header_w{
     width: 7.1rem;
     height: 100%;
@@ -20,14 +23,13 @@
     font-size: 0.4rem;
     float: left;
     color: #4ebbfe;
-    margin-left: 0.24rem;
     display: block;
 }
 /* content */
 .address{
     width: 100%;
     float: left;
-    box-shadow: 0 0.1rem 0.1rem 0.01rem #eff9ff inset;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41,167,255,0.13) inset;
     margin-top: 0.88rem;
 }
 .address_w{
