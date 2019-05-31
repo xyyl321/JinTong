@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c25d04c-5717-45df-8a6c-c7da09a8e0f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/235309.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/30235241.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aAddress.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aAddress.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aDetails.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aPerfect.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aPerfect.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aQuickSignin.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aQuickSignin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aSearch1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aSearch1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aSearch2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aSearch2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aSearch3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aSearch3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aSwitchingcities.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aSwitchingcities.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aUserregistration.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aUserregistration.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aVxSignin.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aVxSignin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/timg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="2c25d04c-5717-45df-8a6c-c7da09a8e0f3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="133">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -54,6 +38,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
@@ -107,15 +94,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559286105254</updated>
-      <workItem from="1559286106601" duration="1112000" />
+      <workItem from="1559286106601" duration="1205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1112000" />
+    <option name="totallyTimeSpent" value="1205000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -156,8 +143,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="133">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
