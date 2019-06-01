@@ -3,32 +3,52 @@
     padding:0;
     list-style:none;
 }
+
+header{
+    width:7.5rem;
+    height:0.88rem;
+    background-color:#FBFEFF;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+    font-size:0.38rem;
+    color:#4FBAFC;
+    text-align:center;
+    line-height:0.88rem;
+    position:relative;
+}
+header .back{
+    display:block;
+    width:0.4rem;
+    height:0.4rem;
+    line-height:0.4rem;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    left:0.24rem;
+}
+header .iconzuojiantou{
+    font-size:0.4rem;
+    color:#4FBAFC;
+}
+
+
+
 body{
     color:#fbfeff;
 }
-
 /* 导航栏开始 */
-.header{
+.xinxi{
     width:7.5rem;
-    height:0.88rem;
-    background:#fbfeff;
-    padding:0 0.24rem;
-    box-sizing:border-box;
-    position:fixed;
-    top:0;
-    text-align:center;
-    line-height:0.88rem;
-    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
-   font-size:0.36rem;
-    color:#4ebbfe;
+    height:auto;
 }
-.header .iconzuojiantou{
-    font-size:0.38rem;
-    position: absolute;
-    left:0.24rem;
-    top:0.06rem;
-    color:#36a8fe;
+.hang .left .name{
+    color:rgba(0,0,0,0.7);
 }
+.hang .you .red{
+    font-size:0.36rem;
+    color:#FD624D;
+}
+
 /*对话1*/
 .l1{
     margin-top:1.54rem;
@@ -139,8 +159,8 @@ font-size:0.2rem;
     justify-content:space-between;
 }
 .shur .d{
-    height:0.3rem;
-    width:0.46rem;
+    height:0.34rem;
+    width:0.5rem;
     border-radius:0.1rem;
     background-color: white;
     margin-left:0.14rem;
@@ -153,8 +173,14 @@ font-size:0.2rem;
 }
 .shur .sr{
     height:0.56rem;
-    width:5.92rem;
+    width:5.2rem;
     outline:none;
     border:0.04rem solid #2993e3;
     border-radius:0.4rem;
+}
+.shur .yuan{
+    width: 0.56rem;
+    height: 0.56rem;
+    border-radius: 50%;
+    background: #2993e3;
 }
