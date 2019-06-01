@@ -6,8 +6,8 @@
     aPerfect    用户信息完善 
     aQuickSignin    快捷登录
     aSearch1    搜索1
-    aSearch2    搜索2
-    aSearch3    搜索3
+    aSearch2    搜索2(搜索失败)
+    aSearch3    搜索3(搜索成功)
     aSwitchingcities    切换城市
     aUserregistration   用户注册
     aVxSignin   微信登录
