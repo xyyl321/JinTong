@@ -88,7 +88,7 @@ body{
     width:1.74rem;
     height:1.74rem;
     float:left;
-    box-shadow: 0px 1px 21px 0px 
+    box-shadow: 0 0.01rem 0.21rem 0 
 		rgba(223, 223, 223, 0.43);
     border-radius: 0.2rem;
     background:#fff;
@@ -115,13 +115,14 @@ body{
     height:0.18rem;
     margin-top:0.23rem;
     line-height: 0.18rem;
+    display:flex;
+    align-items:center;
 }
 .order .goods .right .font2 .yuan{
     border-radius:50%;
     background:#44b5ff;
-    width:0.05rem;
-    height:0.05rem;
-    margin-top:0.04rem;
+    width:0.06rem;
+    height:0.06rem;
     float:left;
 }
 .order .goods .right .font2 .ECC{
@@ -131,7 +132,7 @@ body{
     margin-left:0.1rem;
 }
 .order .goods .right .money{
-    margin-top:0.46rem;
+    margin-top:0.38rem;
 }
 .order .goods .right .money .money2{
     font-size:0.26rem;
@@ -203,19 +204,16 @@ body{
     overflow: hidden;
 }
 .tail .one{
-    width:2.2rem;
+    width:auto;
     height:0.24rem;
     line-height:0.24rem;
-    position:relative;
     float:right;
+    display:flex;
+    align-items:center;
 }
 .tail .one .round{
-    width:0.05rem;
-    height:0.05rem;
-    position:absolute;
-    top:0;
-    bottom:0;
-    margin:auto;
+    width:0.06rem;
+    height:0.06rem;
     background:#36d681;
     box-shadow: 0 0.02rem 0.05rem 0 
 		rgba(54, 214, 129, 0.43);

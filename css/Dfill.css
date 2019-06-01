@@ -87,23 +87,29 @@ body{
 }
 .order .goods .right .font2{
     width:100%;
-    height:0.18rem;
+    height:auto;
     margin-top:0.23rem;
     line-height: 0.18rem;
+    display:flex;
+    align-items:center;
 }
 .order .goods .right .font2 .yuan{
     border-radius:50%;
     background:#44b5ff;
-    width:0.05rem;
-    height:0.05rem;
-    margin-top:0.04rem;
+    width:0.06rem;
+    height:0.06rem;
     float:left;
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+}
+.order .goods .right .font2 .around{
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
 }
 .order .goods .right .font2 .ECC{
     font-size:0.26rem;
     color:#36a8fe;
     float:left;
-    margin-left:0.1rem;
+    margin-left:0.07rem;
 }
 .order .goods .right .money{
     margin-top:0.46rem;
@@ -155,12 +161,19 @@ body{
     border-bottom:0.02rem solid #F6F9FA;
     line-height:0.88rem;
 }
+.order .coupon .coupon2{
+    width:auto;
+    height:100%;
+    float:left;
+    align-items:center;
+    display:flex;
+}
 .order .coupon .yuan{
     border-radius:50%;
-    background:#44b5ff;
-    width:0.05rem;
-    height:0.05rem;
-    margin-top:0.42rem;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    width:0.06rem;
+    height:0.06rem;
     float:left;
 }
 .order .coupon span{
@@ -171,6 +184,12 @@ body{
 .order .coupon .i1{
     font-size:0.18rem;
     color:#8a8c8d;
+    float:right;
+}
+.order .coupon a{
+    width:auto;
+    height:100%;
+    display:block;
     float:right;
 }
 .order .coupon .wu{
@@ -187,14 +206,16 @@ body{
 .order .remarks .remarks1{
     width:100%;
     height:0.24rem;
+    display: flex;
+    align-items: center;
 }
 .order .remarks .yuan{
     border-radius:50%;
     background:#44b5ff;
-    width:0.05rem;
-    height:0.05rem;
-    margin-top:0.16rem;
+    width:0.06rem;
+    height:0.06rem;
     float:left;
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
 }
 .order .remarks .bei{
     font-size:0.24rem;
@@ -214,51 +235,60 @@ body{
 .order .remarks .photos{
     width:100%;
     height:2.54rem;
-    margin-top:0.17rem;
+    margin-top:0.2rem;
 }
 .order .remarks .photos .photos1{
     width:1.01rem;
     height:1.01rem;
     line-height:1.01rem;
     text-align: center;
-    box-shadow: 0px 4px 20px 0px 
-		rgba(55, 223, 116, 0.75);
-    border-radius: 10px;
+    border-radius: 0.1rem;
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
     background:-webkit-linear-gradient(left,#37DF73,#32D797)
 }
 .order .remarks .photos .photos1 i{
     font-size:0.6rem;
     color:#fff;
 }
-.order .remarks .photos input{
+.order .remarks .photos textarea{
     width:100%;
     height:1.27rem;
     background:#F1FAFF;
     font-size:0.24rem;
     border:0;
     margin:0.26rem 0 0.1rem 0;
-    padding:0 0 0.32rem 0.32rem;
+    padding:0.32rem 0 0.32rem 0.32rem;
     box-sizing:border-box;
+    outline:none;
+}
+::-webkit-input-placeholder {
+    color: #b9c9d2;
+    font-size:0.24rem;
 }
 .money3{
     width:100%;
     height:0.7rem;
     border-bottom:0.02rem solid #F6F9FA;
     margin-top:0.18rem;
+    line-height:0.7rem;
+}
+.money3 .shop{
+    width:auto;
+    height:100%;
+    float:left;
+    display:flex;
+    align-items:center;
 }
 .money4{
     line-height:0.7rem;
 }
-.order .money4 .m5{
-    margin-top:0.34rem;
-}
 .photos .yuan{
     border-radius:50%;
     background:#44b5ff;
-    width:0.05rem;
-    height:0.05rem;
-    margin-top:0.36rem;
-    float:left
+    width:0.06rem;
+    height:0.06rem;
+    float:left;
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
 }
 .photos  .y1{
     font-size:0.24rem;
@@ -280,23 +310,31 @@ body{
     background:#F1FAFF;
     padding:0 0.24rem;
     box-sizing:border-box;
+    overflow: hidden;
 }
 .refer .left{
-    width:1.88rem;
+    width:auto;
     height:0.26rem;
     line-height:0.26rem;
     float:left;
     margin-top:0.4rem;
+    display:flex;
+    align-items:center;
 }
 .refer .left .yuan{
     border-radius:50%;
     background:#44b5ff;
-    width:0.05rem;
-    height:0.05rem;
-    margin-top:0.15rem;
+    width:0.06rem;
+    height:0.06rem;
     float:left;
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
 }
 .refer .left .he{
+    font-size:0.24rem;
+    color:#84CBFE;
+    margin-left:0.1rem;
+}
+.refer .left .colon{
     font-size:0.24rem;
     color:#84CBFE;
     margin-left:0.1rem;
@@ -305,6 +343,7 @@ body{
     font-size:0.36rem;
     color:#36a8fe;
     font-weight:bold;
+    margin-left:0.16rem;
 }
 .refer a{
     display: block;
@@ -313,7 +352,7 @@ body{
     background-color: #3bacfe;
 	box-shadow: 0px 5px 12px 0px 
 		rgba(59, 172, 254, 0.43);
-    border-radius: 30px;
+    border-radius: 0.3rem;
     float:right;
     margin:0.23rem 0.12rem 0 0;
     font-size:0.2rem;
@@ -322,3 +361,105 @@ body{
     text-align: center;
 }
 /* 提交订单结束 */
+/* .black{
+    width:7.5rem;
+    height:100%;
+    background:rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top:0;
+
+}
+.fanhui{
+    width:7.5rem;
+    height:4.92rem;
+    background:#fff;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    position: fixed;
+    bottom:0;
+}
+.fanhui1{
+    width:100%;
+    height:0.24rem;
+    margin-top:0.23rem;
+    text-align: center;
+    line-height:0.24rem;
+    color:#41b2fc;
+    font-size:0.2rem;
+}
+.fanhui .fanhui1 i{
+    font-size:0.24rem;
+    float:right;
+    color:#D1DDE6;
+}
+.top{
+    width:100%;
+    height:0.44rem;
+    margin-top:0.6rem;
+    line-height:0.44rem;
+}
+.box{
+    width:auto;
+    height:100%;
+    float:left;
+    display:flex;
+    align-items:center;
+}
+.y{
+    border-radius:50%;
+    background:#44b5ff;
+    width:0.06rem;
+    height:0.06rem;
+    float:left;
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    
+}
+.y3{
+    margin-top:0.3rem;
+}
+.full{
+    margin-left:0.1rem;
+    font-size:0.24rem;
+    color:#8a8c8d;
+}
+.Bigy{
+    width:0.23rem;
+    height:0.23rem;
+    border-radius:50%;
+    background: #fff;
+    float:right;
+    border:0.08rem solid #3BB1FF;
+    box-sizing:border-box;
+    margin-top:0.1rem;
+}
+.center{
+    width:100%;
+    height:0.66rem;
+    border-bottom:0.04rem solid #F6F9FA;
+    border-top:0.04rem solid #F6F9FA;
+    line-height:0.66rem;
+}
+.top2{
+    margin-top:0.3rem;
+    display:flex;
+    align-items:center;
+}
+.close{
+    width:7.05rem;
+    height:0.6rem;
+    margin-top:0.78rem;
+}
+.close .close2{
+    display: block;
+    width:4.54rem;
+    height:0.6rem;
+    margin:auto;
+    box-shadow: 0px 4px 20px 0px 
+		rgba(55, 223, 116, 0.75);
+    border-radius: 30px;
+    font-size:0.2rem;
+    line-height:0.6rem;
+    text-align: center;
+    color:#fff;
+    background:-webkit-linear-gradient(left,#37DF71,#32D797)
+} */

@@ -107,21 +107,19 @@ body{
 .order .samllorder .font2{
     font-size:0.24rem;
     color:#8a8c8d;
+    margin-top:0.1rem;
 }
 .order .samllorder .font3{
     height:0.4rem;
     width:100%;
-    margin-top:0.1rem;
-    position: relative;
+    margin-top:0.32rem;
+    display:flex;
+    align-items:center;
 }
 .order .samllorder .font3 .rounds{
-    width:0.05rem;
-    height:0.05rem;
-    position: absolute;
+    width:0.06rem;
+    height:0.06rem;
     background:#44b5ff;
-    top:0;
-    bottom:0;
-    margin:auto;
     border-radius:50%;
     box-shadow: 0 0.02rem 0.05rem 0px 
 		rgba(68, 181, 255, 0.43);

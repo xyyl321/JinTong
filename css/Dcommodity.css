@@ -20,7 +20,7 @@
 }
 .banner{
     width:7.5rem;
-    height:7.02rem;
+    height:7.28rem;
     overflow: hidden;
 }
 .banner img{
@@ -51,27 +51,28 @@
 }
 .bigbox .many{
     width:7.02rem;
-    height:auto;
+    height:0.72rem;
     display: flex;
+    align-items:center;
     justify-content: space-between;
     border-bottom: 0.01rem solid #f0f5f7;
 }
 .bigbox .many .sum{ 
     font-size: 0.26rem;
     color: #fbb548;
-    margin-top:0.25rem;
 }
 .bigbox .many .volume {
     display: flex;
+    align-items: center;
 }
 .bigbox .many .volume .style{
-    width: 0.05rem;
-	height: 0.05rem;
-	background-color: #36d681;
+    width: 0.06rem;
+	height: 0.06rem;
+	background-color:rgb(54,214,129);
 	box-shadow: 0rem 0.02rem 0.05rem 0rem 
 		rgba(54, 214, 129, 0.43);
-    border-radius: 0.03rem;
-    margin-top:0.42rem;
+    border-radius: 50%;
+    
 }
 .bigbox .many .volume .quantity{
     font-size: 0.2rem;
@@ -87,8 +88,9 @@
 }
 .bigbox .coupon {
     width:7.02rem;
-    height:0.8rem;
-    margin-top:0.4rem;
+    height:0.86rem;
+    display:flex;
+    align-items:center;
     border-bottom: 0.01rem solid #f0f5f7;
 }
 .bigbox .coupon img{
@@ -145,14 +147,13 @@
     margin-left:0.82rem;
 }
 .tab{
-    position: fixed;
-    bottom:0;
+    margin-top:0.9rem;
     width:7.5rem;
     height:0.98rem;
     display: flex;
     padding:0 0.25rem;
     box-sizing: border-box;
-    background:#fff;
+    background:#f1faff;
 }
 .tab .store {
     width:0.74rem;
@@ -172,7 +173,7 @@
     text-align: center;
 }
 .tab  .relation{
-    width:1rem;
+    width:1.2rem;
     margin-left:0.45rem;
 }
 .tab  .relation .text{
@@ -192,9 +193,11 @@
    border-radius: 0.3rem;
    display: block;
    margin:0.24rem 0  0  0.71rem;
+   box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
 }
 .tab  .order{
     background:0;
     background-color:#3bacfe;
     margin-left:0.29rem;
+    box-shadow:0 0.05rem 0.12rem 0 rgba(59,172,254,0.43);
 }
