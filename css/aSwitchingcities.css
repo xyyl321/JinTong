@@ -3,7 +3,7 @@
     width: 100%;
     height: 0.88rem;
     float: left;
-    background: #fff;
+    background-color:#FBFEFF;
     position: fixed;
     z-index: 9;
 }
@@ -42,74 +42,90 @@ body{
     width: 7.1rem;
     height: 0.6rem;
     float: right;
-    position: relative;
-}
-.select_w .put input{
-    width: 7.1rem;
-    height: 0.6rem;
-    float: left;
+    background-color:#F1F9FF;
     border-radius: 0.3rem;
-    background: #f2faff;
-    border: #e8f6ff;
-    outline: none;
-    padding-left: 0.95rem;
-    box-sizing: border-box;
-    float: left;
+    border-color: transparent;
+    border: 0.01rem solid rgba(0, 0, 0, 0.05);
 }
 .select_w .put .iconfont{
-    position: absolute;
-    top: 0;
-    left: 0.4rem;
+    float: left;
     font-size: 0.32rem;
     color: #99d7b4;
+    margin: 0.01rem 0 0 0.18rem;
+}
+.select_w .put input{
+    width: 6.6rem;
+    background-color:#F1F9FF;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border: none;
+    padding-left: 0.24rem;
+    float: left;
+}
+.select_w input::-webkit-input-placeholder{
+    font-size:0.24rem;
+    color:#c8d9e6;
 }
 /* content */
 .posi{
     width: 100%;
-    height: 1.35rem;
+    height: 1.33rem;
     float: left;
     margin-top: 0.2rem;
+    padding-top: 0.49rem;
+    box-sizing: border-box;
 }
 .posi_w{
     width: 7.1rem;
     height: 100%;
     margin: 0 auto;
     text-align: center;
-    line-height: 1.35rem;
+    line-height: 1.33rem;
     border-bottom: 0.01rem solid #ecf8ff;
 }
-.posi_w .yuan{
-    width: 0.08rem;
-    height: 0.08rem;
-    background: #4ebbfe;
-    border-radius: 50%;
-    margin: 0.65rem 0.2rem 0 0;
+.posi_w .box{
+    width: 4rem;
+    height: 0.48rem;
     float: left;
+    line-height: 1.33rem;
+    display: flex;
+    align-items: center;
 }
-.posi_w .pre{
-    font-size: 0.24rem;
-    color: #979899;
+.posi_w .box .sp{
     float: left;
+    width:0.1rem;
+    height:0.06rem;
+    border-radius:0.03rem;
+    background-color:rgba(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.06rem;
+}
+.posi_w .box .ss{
+	font-size: 0.26rem;
+	color: #000000;
+    opacity: 0.4;
+    float: left;
+    padding-left: 0.02rem;
 }
 .posi_w .tai{
-    width: 0.96rem;
+    width: 0.97rem;
     height: 0.48rem;
-    line-height: 0.48rem;
-    margin-top: 0.5rem;
     float: left;
-    color: #4ebbfe;
-    font-size: 0.24rem;
-    background: #e7f6ff;
+	font-size: 0.26rem;
+    color: #36a8fe;
+    background-color: #e7f6ff;
+    line-height: 0.48rem;
     border-radius: 0.24rem;
     margin-left: 0.2rem;
 }
+
 .city{
     width: 100%;
-    height: 1.3rem;
     float: left;
 }
 .city_w{
-    width: 1.6rem;
+    width: 100%;
     height: 100%;
     float: left;
     margin-left: 0.2rem;
@@ -133,30 +149,33 @@ body{
     margin-top: 0.3rem;
     float: left;
 }
-
- .tt_w .yuan{
-    width: 0.08rem;
-    height: 0.08rem;
-    background: #99d7b4 ;
-    border-radius: 50%;
-    margin: 0.35rem 0.2rem 0 0;
+.an{
+    width: 100%;
+    height: 0.81rem;
     float: left;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.01rem solid #ecf8ff;
 }
-.tt_w .sp{
-    width: 1.5rem;
+ .an .yuan{
+    width:0.06rem;
+    height:0.06rem;
+    float: left;
+    border-radius:50%;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.07rem;
+}
+.an .sp{
+    width: 100%;
     font-size: 0.28rem;
     float: left;
-    line-height: 0.81rem;
     color: #646666;
 }
-.mark{
-    margin-top: 0.6rem;
+.ann{
+    border-bottom: 0;
 }
-.widt{
-    width: 6.5rem;
-    border-bottom: 0.01rem solid #ecf8ff;
-    
-}
+
 
 /* side */
 body{
@@ -164,14 +183,15 @@ body{
 }
 .left{
     width: 0.12rem;
-    height: 9.5rem;
+    height: 8.98rem;
     position: absolute;
-    right: 0.24rem;
-    top: 3.4rem;
+    right: 0.2rem;
+    top: 3.36rem;
 }
 .left span{
     font-size: 0.14rem;
-    margin-top: 0.2rem;
     float: left;
+    color: #c1c1c1;
+    line-height: 0.34rem;
 }
 

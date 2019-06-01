@@ -103,23 +103,20 @@ body{
     margin-top:0.48rem;
     width:5rem;
     height:0.22rem;
-    position:relative;
     line-height:0.22rem;
+    display:flex;
+    align-items:center;
 }
  .round{
     width:0.05rem;
     height:0.05rem;
-    position:absolute;
-    top:0;
-    bottom:0;
-    margin:auto;
     background:#44b5ff;
     box-shadow: 0 0.02rem 0.05rem 0 
         rgba(68, 181, 255, 0.43);
     border-radius:50%;
 }
 .ordertaking .right .time .font3{
-    margin-left:0.11rem;
+    margin-left:0.07rem;
     font-size:0.22rem;
     color:#AFB1B2;
 }
@@ -132,18 +129,19 @@ body{
     width:100%;
     height:0.2rem;
     margin-top:0.82rem;
-    position:relative;
     line-height:0.2rem;
 }
 .ordertaking .right .money .left{
     height:100%;
     width:50%;
     float:left;
+    display:flex;
+    align-items:center;
 }
 .ordertaking .right .money .font5{
     font-size:0.26rem;
     color:#8a8c8d;
-    margin-left:0.11rem
+    margin-left:0.07rem
 }
 .ordertaking .right .money .righ{
     width: 0.4rem;
@@ -157,6 +155,7 @@ body{
     float:right;
 }   
 .round2{
+    margin-right:0.08rem;
     background:#36d681;
     box-shadow: 0 0.02rem 0.05rem 0 
 		rgba(54, 214, 129, 0.43);
@@ -171,23 +170,21 @@ body{
     overflow: hidden;
 }
 .tail .one{
-    width:2.2rem;
+    width:auto;
     height:0.24rem;
     line-height:0.24rem;
-    position:relative;
     float:right;
+    display:flex;
+    align-items:center;
 }
 .tail .one .round{
-    width:0.05rem;
-    height:0.05rem;
-    position:absolute;
-    top:0;
-    bottom:0;
-    margin:auto;
+    width:0.06rem;
+    height:0.06rem;
     background:#36d681;
     box-shadow: 0 0.02rem 0.05rem 0 
 		rgba(54, 214, 129, 0.43);
     border-radius:50%;
+    float:left;
 }
 .tail .one span{
     font-size:0.24rem;

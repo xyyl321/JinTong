@@ -30,40 +30,81 @@ body{
     float:left;
     color:#36a8fe;
 }
-.search{
-    width:7.5rem;
+.searchBox{
+    width:7.02rem;
     height:0.6rem;
+<<<<<<< HEAD
+    border-radius:0.3rem;
+    background-color:#F1F9FF;
+    border:0.03rem solid #EBF7FF;
+    box-sizing:border-box;
+    margin:0.9rem auto 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.searchBox input{
+    width:5.5rem;
+    height:0.6rem;
+    border:0;
+    outline:none;
+    background-color:transparent;
+    margin-left:0.24rem;
+    font-size:0.24rem;
+    color:rgba(0,0,0,0.5);
+=======
+    background:#fbfeff;
     margin-top:0.88rem;
     position:relative;
 }
 .search input{
-    border:0.03rem solid #EBF7FF;
-    background:#F2FAFF;
-    font-size:0.24rem;
-    color:#c8d9e6;
-    padding-left: 0.3rem;
-    box-sizing:border-box;
-    margin:0 0.2rem 0 0.18rem;
-    width:7.12rem;
+    display:block;
+    width:7.02rem;
     height:0.6rem;
     border-radius:0.3rem;
     outline:none;
+    border:0.03rem solid #EBF7FF;
+    background:#F2FAFF;
+    font-size:0.24rem;
+    color:rgba(0,0,0,0.8);
+    text-indent:1em;
+    box-sizing:border-box;
+    margin:0 auto;
 }
-.search .right{
+.search input::-webkit-input-placeholder{
+    font-size:0.24rem;
+    color:#c8d9e6;
+>>>>>>> f3fb9443aaf425f1fceff598e3188b37efbbb2fc
+}
+.searchBox input::-webkit-input-placeholder{
+    font-size:0.24rem;
+    color:#c8d9e6;
+}
+.searchBox .soubox{
     width:0.79rem;
     height:0.44rem;
+<<<<<<< HEAD
+    border-radius:0.22rem;
+    background-color:#A3DFBD;
+    text-align:center;
+=======
     background:#a4e0bd;
     border-radius: 0.2rem;
     position: absolute;
-    right:0.29rem;
-    bottom:0.08rem;
+    top:0;
+    bottom:0;
+    margin:auto;
+    right:0.33rem;
     text-align: center;
+>>>>>>> f3fb9443aaf425f1fceff598e3188b37efbbb2fc
     line-height:0.44rem;
+    margin-right:0.1rem;
 }
-.search .right .iconsousuo1{
+.searchBox .soubox .iconsousuo1{
     font-size:0.42rem;
     color:#E5F6EC;
 }
+
 /* 导航栏结束 */
 /* 咨询开始 */
 .consult{
@@ -102,8 +143,8 @@ body{
 }
 .consult .right .big .round{
     display: inline-block;
-    width:0.05rem;
-    height:0.05rem;
+    width:0.06rem;
+    height:0.06rem;
     border-radius:50%;
     background:#44b5ff;
     box-shadow: 0 0.02rem 0.05rem 0px 
@@ -170,6 +211,8 @@ body{
     height:1.39rem;
     padding:0.44rem 1.14rem;
     box-sizing:border-box;
+    display: flex;
+    justify-content:space-between;
 }
 .sort .one{
     width:1.5rem;
@@ -180,14 +223,12 @@ body{
     border-radius: 0.26rem;
     text-align: center;
     line-height:0.52rem;
-    float:left;
     color:#fff;
     font-size:0.2rem;
 }
 .sort .one2{
     background:#E7F6FF;
     color:#3bacfe;
-    margin-left:0.35rem;
 }
 /* 类别结束 */
 /* 全部开始 */

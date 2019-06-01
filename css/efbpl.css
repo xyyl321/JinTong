@@ -40,12 +40,11 @@ body{
     margin:1.16rem 0 0.32rem 0;
 }
 .miaoshu .left{
-    width:1.20rem;
+    width:1.3rem;
     height:0.42rem;
     float:left;
     margin:0;
     display:flex;
-    justify-content: space-between;
     align-items: center;
 }
 .miaoshu .left span{
@@ -56,12 +55,13 @@ body{
     display:block;
     width:0.06rem;
     height:0.06rem;
-    border-radius:0.01rem;
-    background-color:#36a8fe;
-    box-shadow: 0 0.08rem 0.08rem 0.01rem #caebff;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.08rem;
 }
 .miaoshu .xing{
-margin-left:0.3rem;
+margin-left:0.2rem;
 height:100%;
 width:auto;
 float:left;
@@ -178,22 +178,22 @@ margin-top:0.26rem;
     box-sizing:border-box;
 }
 .pingf .top{
-    width:1.16rem;
+    width:1.3rem;
     height:0.54rem;
     line-height:0.54rem;
     font-size:0.24rem;
     color:#36a8fe;
     margin:0;
+    display: flex;
+    align-items: center;
 }
 .pingf .top .dian{
     display:block;
     width:0.06rem;
     height:0.06rem;
-    border-radius:0.01rem;
-    background-color:#36a8fe;
-    box-shadow: 0 0.08rem 0.08rem 0.01rem #caebff;
-    float:left;
-    margin-top:0.24rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
     margin-right:0.08rem;
 }
 .pingf .center .cen1{
@@ -245,9 +245,10 @@ justify-content: space-between;
     width:3.8rem;
     text-align:center;
     line-height:0.6rem;
-    border-radius:0.4rem;
     box-shadow: 0 0 0.2rem 0.02rem #9aeeba;
     margin:0 auto;
-    background:-webkit-linear-gradient(left,#37e06f,#32d69a); 
-    background:linear-gradient(left,#37e06f,#32d69a); 
+    border-radius:0.3rem;
+    background:linear-gradient(to right,#37d66f,#31d69a);
+    background:-webkit-linear-gradient(left,#37d66f,#31d69a);
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
 }
