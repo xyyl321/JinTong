@@ -23,10 +23,10 @@ body{
     color:#4ebbfe;
 }
 .header .iconzuojiantou{
-    font-size:0.38rem;
+    font-size:0.4rem;
     position: absolute;
     left:0.24rem;
-    top:0.06rem;
+    top:0rem;
     color:#36a8fe;
 }
 
@@ -170,7 +170,7 @@ body{
     border-radius:0.4rem;
     box-shadow:0 0.04rem 0.08rem 0.01rem #c7f3de;
     float:right;
-    margin:0.54rem 0.1rem 0 0;
+    margin:0.58rem 0.1rem 0 0;
 }
 .tk .shi .wenz4{
     float:right;
@@ -263,7 +263,7 @@ body{
 .jine .price{
     height:0.52rem;
     margin-top:0.52rem;
-    margin-left:0.29rem;
+    margin-left:0.26rem;
     color:#fcbc41;
     font-size:0.32rem;
     font-weight:bold;
@@ -349,7 +349,7 @@ body{
 }
 .shangc .tu .iconfont{
     color:white;
-    font-size:0.42rem;
+    font-size:0.6rem;
 }
 .shangc .text{
     color:#afb1b2;
