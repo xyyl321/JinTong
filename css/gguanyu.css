@@ -56,6 +56,8 @@ body{
     border-radius:0.3rem;
     background: #44b5ff;
     margin:0  0.12rem 0 0.12rem;
+    box-shadow: 0px 2px 5px 0px 
+		rgba(68, 181, 255, 0.43);
   
 }
 .wode span{
@@ -74,15 +76,26 @@ body{
 }
 .wenzi{
     width: 6.42rem;
-    height: 3.85rem;
+   
   
     font-size: 0.26rem;
     color: #000000;
     opacity: 0.5;
     line-height: 0.4rem;
     font-weight: bold;
-    margin: 0.78rem auto 0.71rem;
+    margin: 0.78rem auto 0;
 }
+.wen{
+    width: 6.42rem;
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.5;
+    line-height: 0.4rem;
+    font-weight: bold;
+    margin: 0.8rem auto 0.71rem;
+
+}
+
 img{
     display: block;
     width: 1.1rem;
@@ -96,7 +109,7 @@ img{
     box-sizing: border-box;
     line-height: 1rem;
     font-size: 0.28rem;
-    font-weight: bold;
+   
 
 
 }
@@ -108,7 +121,9 @@ img{
 
 .weixin .weison{
     float: left;
-   height: 0.84rem;
+   height: 1rem;
+   display: flex;
+   align-items: center;
 }
 .weixin .dian{
     float:right;
@@ -123,9 +138,11 @@ img{
     height: 0.05rem;
     border-radius: 0.3rem;
     background: #44b5ff;
-    margin-top: 0.47rem;
-    float: left;
+   
+  
     margin-right: 0.15rem;
+    box-shadow: 0px 2px 5px 0px 
+		rgba(68, 181, 255, 0.43);
 }
 .weixin .dian .span{
     color: #68ce8a;

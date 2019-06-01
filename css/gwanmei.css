@@ -2,30 +2,33 @@ body{
     background: #FBFEFF;
 }
 
-.top{
-    height: 0.88rem;
-    width: 7.5rem;
-    background: #fbfeff;
-  
-    text-align: center;
-    position:relative;
-    font-size: 0.4rem;
+header{
+    width:7.5rem;
+    height:0.88rem;
+    background-color:#FBFEFF;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+    font-size:0.4rem;
+    color:#4FBAFC;
+    text-align:center;
     line-height:0.88rem;
-    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
-    position: relative;
+    position:relative;
 }
-.top i{
-   color:  #36a8fe;
-   width: 0.25rem;
-   height: 0.42rem;
-   position: absolute;
-   left: 0.24rem;
-   bottom: 0.45rem;
+header .back{
+    display:block;
+    width:0.4rem;
+    height:0.4rem;
+    line-height:0.4rem;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    left:0.24rem;
+}
+header .iconzuojiantou{
+    font-size:0.4rem;
+    color:#4FBAFC;
 }
 
-.top p{
-    color: #4ebbfe;
-}
 .han{
     width: 6.41rem;
     height: 1.85rem;
@@ -172,6 +175,8 @@ body{
     border-radius:0.3rem;
     background: #44b5ff;
     margin-right: 0.1rem;
+    box-shadow: 0px 2px 5px 0px 
+    rgba(68, 181, 255, 0.43);
   
 }
 .wode span{
@@ -188,17 +193,25 @@ body{
     display: flex;
 }
 .xin .fuwu{
-    width: 1.23rem;
+  
     height:auto;
-    margin-right: 0.83rem;
+  
 }
 .xin .fuwu img{
     display: block;
     width: 1.13rem;
     height: 1.13rem;
     margin: 0.51rem 0.83rem  0.29rem 0;
-    box-shadow: 0px 10px 29px 0px 
+    box-shadow: 0px 0.1rem 0.29rem 0
     rgba(39, 107, 156, 0.16);
+    border-radius: 50%;
+
+
+
+
+
+
+
 }
 .xin .fuwu p{
     font-size: 0.24rem;

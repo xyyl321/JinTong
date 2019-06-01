@@ -4,12 +4,14 @@
     list-style:none;
 }
 
+
+
 header{
     width:7.5rem;
     height:0.88rem;
     background-color:#FBFEFF;
     box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
-    font-size:0.38rem;
+    font-size:0.4rem;
     color:#4FBAFC;
     text-align:center;
     line-height:0.88rem;
@@ -30,6 +32,10 @@ header .iconzuojiantou{
     font-size:0.4rem;
     color:#4FBAFC;
 }
+
+
+  
+
 
 
 
@@ -182,5 +188,5 @@ font-size:0.2rem;
     width: 0.56rem;
     height: 0.56rem;
     border-radius: 50%;
-    background: #2993e3;
+   color:#6ed5fe;
 }

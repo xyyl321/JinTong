@@ -146,10 +146,14 @@ body{
     box-sizing: border-box;
     font-size: 0.26rem;
     color: #36a8fe;
+    display: flex;
+    align-items: center;
  
 }
 .zuizui{
     margin-top: 0.23rem;
+    display: flex;
+    align-items: center;
 }
 
 .zuihou span{
@@ -172,10 +176,12 @@ body{
     height: 0.05rem;
     display: inline-block;
     background-color: #44b5ff;
-    margin-top: 0.15rem;
+   
     float: left;
     border-radius: 50%;
     margin-right: 0.09rem;
+    box-shadow: 0px 2px 5px 0px 
+		rgba(68, 181, 255, 0.43);
 }
  .zuihou .yua{
     background: #36d681;
@@ -207,6 +213,8 @@ body{
 .zuiz{
     margin-top: 0.2rem;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 .zuiz .float{
     position: absolute;
@@ -233,10 +241,12 @@ body{
 }
 
 .zaa .yuanav{
-    margin-top: 0.46rem;
+   
 }
 .zaa .duigou{
     height: 0.99rem;
+    display: flex;
+    align-items: center;
 }
 .zaa .sangchu span{
     float: right;
@@ -263,15 +273,17 @@ body{
     padding: 0 0.25rem;
     box-sizing: border-box;
     background-color: #f1faff;
-    font-weight: bold;
+   
     line-height:1.08rem;
     position: absolute;
     bottom: 0;
     left: 0;
+    display: flex;
+    align-items: center;
    
 }
 .bottom .yuanav{
-    margin-top: 0.5rem;
+  
 }
 .bottom .hej{
     font-size: 0.24rem;
@@ -281,6 +293,7 @@ body{
 .bottom .yiliuer{
     font-size: 0.36rem;
     color: #36a8fe;
+    font-weight: bold;
 }
 .bottom p{
     width: 3.5rem;
@@ -293,4 +306,6 @@ body{
     line-height: 0.6rem;
     color: #ffffff;
     text-align: center;
+    box-shadow: 0px 5px 12px 0px 
+		rgba(59, 172, 254, 0.43);
 }

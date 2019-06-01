@@ -2,30 +2,33 @@ body{
     background: #FBFEFF;
 }
 
-.top{
+header{
+    width:7.5rem;
     height:0.88rem;
-    width: 7.5rem;
-    background: #fbfeff;
-  
-    text-align: center;
-    position:relative;
-    font-size: 0.4rem;
+    background-color:#FBFEFF;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+    font-size:0.4rem;
+    color:#4FBAFC;
+    text-align:center;
     line-height:0.88rem;
-    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
-    position: relative;
+    position:relative;
 }
-.top i{
-   color:  #36a8fe;
-   width: 0.25rem;
-   height: 0.42rem;
-   position: absolute;
-   left: 0.24rem;
-   bottom: 0.45rem;
+header .back{
+    display:block;
+    width:0.4rem;
+    height:0.4rem;
+    line-height:0.4rem;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    left:0.24rem;
+}
+header .iconzuojiantou{
+    font-size:0.4rem;
+    color:#4FBAFC;
 }
 
-.top p{
-    color: #4ebbfe;
-}
 .wode{
     width:7.5rem;
     height: 1rem;
