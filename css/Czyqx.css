@@ -1,3 +1,6 @@
+body{
+    background-color:#FBFEFF;
+}
 .dd{
     width: 7.5rem;
     height: 0.88rem;
@@ -7,13 +10,12 @@
    box-sizing: border-box;
     text-align: center;
     line-height: 0.88rem;
-     font-weight: bold;
     color: #58BFFE;
 }
 .dd a{
     float: left;
     line-height: 0.88rem;
-    font-size: 0.3rem;
+    font-size: 0.4rem;
     color: #36A8FE;
 }
 .fl{
@@ -21,7 +23,11 @@
     height: 0.88rem;
     padding: 0 0.24rem;
     box-sizing: border-box;
-    box-shadow: 0 0.02rem 0.01rem 0.03rem #ECF8FF;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 0.88rem;
 }
 .fl .fll{
     width: 1.33rem;
@@ -34,13 +40,7 @@
     font-weight: bold;
     font-size: 0.24rem;
 }
-.fl ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    line-height: 0.88rem;
-}
-.fl li{
+.fl p{
     font-size: 0.24rem;
     color:#3BACFE;
 }
@@ -67,13 +67,16 @@
     width: 7.5rem;
     height: 2rem;
     margin-top: 0.2rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
 }
 .sp .spt{
     width: 1.97rem;
     height: 1.97rem;
     background: #4F5B64;
     float: left;
-    box-shadow: 0 0 0.3rem 0.03rem #F2F2F2;
+    box-shadow: 0px 1px 21px 0px 
+		rgba(223, 223, 223, 0.43);
 }
 .sp .spt img{
     width: 1.97rem;
@@ -92,6 +95,9 @@
     padding-top:0;
     color: #AFB1B2;
     margin-left: 2.2rem;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
 }
 .sp .xian{
     width: 4.9rem;
@@ -105,8 +111,8 @@
     position: relative;
 }
 .sp .xian .dian{
-    width: 0.05rem;
-    height: 0.05rem;
+    width: 0.06rem;
+    height: 0.06rem;
     background: #36A8FE;
     border-radius: 50%;
     margin-top: 0.15rem;
@@ -127,8 +133,8 @@
     color: #45AEFE;
 }
 .sp .xian .dian1{
-    width: 0.05rem;
-    height: 0.05rem;
+    width: 0.06rem;
+    height: 0.06rem;
     background: #39D683;
     border-radius: 50%;
     margin-top: 0.15rem;
@@ -138,14 +144,14 @@
     font-size: 0.26rem;
     font-weight: bold;
     position: absolute;
-    right: 0;
+    right: 0.02rem;
     bottom: 0.2rem;
     color: #FBC26B;
 }
 .sp .xian i{
     position: absolute;
     left: 0;
-    top: 0.6rem;
+    top: 0.55rem;
     font-size: 0.35rem;
     color: #85C7FF;
 }

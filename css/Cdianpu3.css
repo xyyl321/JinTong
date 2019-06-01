@@ -1,3 +1,6 @@
+body{
+    background-color:#FBFEFF;
+}
 .dd{
     width: 7.5rem;
     height: 0.88rem;
@@ -7,13 +10,13 @@
     box-sizing: border-box;
     text-align: center;
     line-height: 0.88rem;
-     font-weight: bold;
     color: #58BFFE;
+    position: fixed;
 }
 .dd a{
     float: left;
     line-height: 0.88rem;
-    font-size: 0.3rem;
+    font-size: 0.4rem;
     color: #36A8FE;
 }
 .ss{
@@ -66,9 +69,11 @@
     background: #E7F6FF;
     border-radius: 0.5rem;
     text-align: center;
+    /* box-shadow:0 0.05rem 0.12rem 0 rgba(59,172,254,0.43); */
 }
 .fl .hz11{
     background: #36A8FE;
+    box-shadow:0 0.05rem 0.12rem 0 rgba(59,172,254,0.43);
 }
 .fl .hz1 span{
     font-size: 0.24rem;
@@ -165,6 +170,7 @@
     font-size: 0.24rem;
     text-align: center;
     line-height: 0.34rem;
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
 }
 .rm .rmx .ku .hz1{
     width: 3.28rem;
@@ -226,6 +232,10 @@
     color: #36A8FE;
     font-weight: bold;
 }
+.rm .rmx .ku .hz3 .ys3{
+    font-size: 0.24rem;
+    color: #C1E4FF;
+}
 .rm .rmx .ku .hz3 p{
     width: 1.23rem;
     height: 0.35rem;
@@ -240,29 +250,32 @@
     line-height: 0.35rem;
 }
 .dh{
-    width: 7.5rem;
-    height: 1rem;
+    width:7.5rem;
+    height:0.98rem;
     background: #F6FBFF;
     position: fixed;
     bottom: 0;
     display: flex;
     justify-content: space-around;
-}
-.dh .dh1{
-    width: 0.94rem;
-    height: 1rem;
-}
-.dh .dh1 a{
+    }
+    .dh .dh1{
+    width:0.94rem;
+    height:0.98rem;
+    }
+    .dh .dh1 a{
+    display:block;
+    width:0.94rem;
+    height:0.98rem;
+    display:flex;
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.dh .dh1 i{
+    justify-content:center;
+    align-items:center;
+    }
+    .dh .dh1 i{
     font-size: 0.5rem;
-    color: #62C6FE;
-}
-.dh .dh1 span{
+    color: #BAE6FF;
+    }
+    .dh .dh1 span{
     font-size: 0.26rem;
-    color: #62C6FE;
-}
+    color: #BAE6FF;
+    }

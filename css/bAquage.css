@@ -15,9 +15,9 @@ header{
 }
 header .back{
     display:block;
-    width:0.5rem;
-    height:0.5rem;
-    line-height:0.5rem;
+    width:0.4rem;
+    height:0.4rem;
+    line-height:0.4rem;
     position:absolute;
     top:0;
     bottom:0;
@@ -33,7 +33,7 @@ nav{
     height:0.9rem;
     margin-top:0.88rem;
     margin-bottom:0.42rem;
-    background-color:#FAFDFF;
+    background-color:#fbfeff;
     box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
 }
 nav .navBox{
@@ -104,12 +104,12 @@ section .long .longCon .ping{
     align-items:center;
 }
 section .longCon .dian{
-    width:0.05rem;
-    height:0.05rem;
+    width:0.06rem;
+    height:0.06rem;
     border-radius:50%;
-    background-color:#45B5FD;
+    background-color:rgb(68,181,255);
     box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
-    margin-right:0.05rem;
+    margin-right:0.07rem;
 }
 section .longCon .dian1{
     margin-left:0.5rem;
@@ -123,6 +123,11 @@ section .longCon .ping .sp1{
     font-size:0.26rem;
     font-weight:bold;
     color:#38A8FC;
+}
+section .longCon .ping .bai{
+    font-size:0.26rem;
+    font-weight:bold;
+    color:#b9e1ff;
 }
 section .longCon .fei{
     width:2.51rem;
@@ -149,7 +154,7 @@ section .longCon .shou{
     align-items:center;
 }
 section .longCon .dian2{
-    background-color:#32D582;
+    background-color:rgb(54,214,129);
     box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
 }
 section .longCon .shou .spp{

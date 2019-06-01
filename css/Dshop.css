@@ -33,6 +33,7 @@ body{
 .searchBox{
     width:7.02rem;
     height:0.6rem;
+<<<<<<< HEAD
     border-radius:0.3rem;
     background-color:#F1F9FF;
     border:0.03rem solid #EBF7FF;
@@ -51,6 +52,29 @@ body{
     margin-left:0.24rem;
     font-size:0.24rem;
     color:rgba(0,0,0,0.5);
+=======
+    background:#fbfeff;
+    margin-top:0.88rem;
+    position:relative;
+}
+.search input{
+    display:block;
+    width:7.02rem;
+    height:0.6rem;
+    border-radius:0.3rem;
+    outline:none;
+    border:0.03rem solid #EBF7FF;
+    background:#F2FAFF;
+    font-size:0.24rem;
+    color:rgba(0,0,0,0.8);
+    text-indent:1em;
+    box-sizing:border-box;
+    margin:0 auto;
+}
+.search input::-webkit-input-placeholder{
+    font-size:0.24rem;
+    color:#c8d9e6;
+>>>>>>> f3fb9443aaf425f1fceff598e3188b37efbbb2fc
 }
 .searchBox input::-webkit-input-placeholder{
     font-size:0.24rem;
@@ -59,9 +83,20 @@ body{
 .searchBox .soubox{
     width:0.79rem;
     height:0.44rem;
+<<<<<<< HEAD
     border-radius:0.22rem;
     background-color:#A3DFBD;
     text-align:center;
+=======
+    background:#a4e0bd;
+    border-radius: 0.2rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    right:0.33rem;
+    text-align: center;
+>>>>>>> f3fb9443aaf425f1fceff598e3188b37efbbb2fc
     line-height:0.44rem;
     margin-right:0.1rem;
 }

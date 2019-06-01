@@ -23,10 +23,10 @@ body{
     color:#4ebbfe;
 }
 .header .iconzuojiantou{
-    font-size:0.38rem;
+    font-size:0.4rem;
     position: absolute;
     left:0.24rem;
-    top:0.06rem;
+    top:0rem;
     color:#36a8fe;
 }
 
@@ -73,29 +73,28 @@ body{
 .tk .kap .right .lw{
     height:0.36rem;
     width:5.02rem;
+    display: flex;
+    align-items: center;
 }
 .tk .kap .right .lw .yuan{
-    height:0.06rem;
     width:0.06rem;
-    background-color:#36a8fe;
-    border-radius:0.4rem;
-    box-shadow:0 0.04rem 0.08rem 0.01rem #d9f0ff;
-    float:left;
-    margin:0.14rem 0.1rem 0 0;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.08rem;
 }
 .tk .kap .right .lw .wenz{
     font-size:0.26rem;
     color:#36a8fe;
     height:0.36rem;
     line-height:0.36rem;
-    float:left;
 }
 .tk .kap .right .lw .wenz2{
     font-size:0.2rem;
     color:#afb1b2;
     height:0.36rem;
     line-height:0.36rem;
-    float:left;
 }
 .tk .kap .right .price{
     height:0.32rem;
@@ -106,40 +105,41 @@ body{
     height:100%;
     widows: 30%;
     float:left;
+    display: flex;
+    align-items: center;
 }
 .tk .kap .right .price .l .yuan1{
-    height:0.06rem;
     width:0.06rem;
-    background-color:#36a8fe;
-    border-radius:0.4rem;
-    box-shadow:0 0.04rem 0.08rem 0.01rem #d9f0ff;
-    float:left;
-    margin:0.12rem 0.1rem 0 0;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.08rem;
 }
 .tk .kap .right .price .l .wenz3{
     font-size:0.26rem;
     color:#afb1b2;
     height:0.32rem;
     line-height:0.32rem;
-    float:left;
 }
 .tk .kap .right .price .r{
     width:30%;
     height:100%;
     float:right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .tk .kap .right .price .r .yuan2{
-    height:0.06rem;
     width:0.06rem;
-    background-color:#36d681;
-    border-radius:0.4rem;
-    box-shadow:0 0.04rem 0.08rem 0.01rem #c7f3de;
-    float:right;
-    margin:0.16rem 0.1rem 0 0;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.08rem;
 }
 .tk .kap .right .price .r .wenz3{
     height:0.32rem;
-    float:right;
     display:flex;
     justify-content: flex-end;
     align-items: center;
@@ -161,19 +161,19 @@ body{
 .tk .shi{
     height:1.2rem;
     width:7.02rem;
-    float:right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .tk .shi .yuan3{
-    height:0.06rem;
     width:0.06rem;
-    background-color:#36d681;
-    border-radius:0.4rem;
-    box-shadow:0 0.04rem 0.08rem 0.01rem #c7f3de;
-    float:right;
-    margin:0.54rem 0.1rem 0 0;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.08rem;
 }
 .tk .shi .wenz4{
-    float:right;
     color:#fbb548;
     font-size:0.24rem;
     height:1.2rem;
@@ -193,18 +193,25 @@ body{
     margin:0 auto;
     border-bottom:0.02rem solid #f1f4f5;
     box-sizing:border-box;
+    display: flex;
+    justify-content: space-between;
+
 }
-.yuany a .both{
+.yuany a .l{
+    height:1.02rem;
+    width:50%;
+    display: flex;
+    align-items: center;
+}
+.yuany a .l .both{
     width:0.1rem;
     height:0.06rem;
-    float:left;
-    border-radius:0.08rem;
-    background-color:#44b5ff;
-    box-shadow:0 0.04rem 0.08rem 0.01rem #c3e8ff;
-    margin:0.46rem 0.1rem 0 0.1rem ;
+    border-radius:0.03rem;
+    background-color:rgba(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.08rem;
 }
 .yuany a .hs{
-    float:left;
     height:1.02rem;
     color:#474747;
     font-size:0.26rem;
@@ -215,16 +222,18 @@ body{
     color:#44b5ff;
 }
 .yuany a .mai{
-    float:right;
+    width:40%;
     height:1.02rem;
     line-height:1.02rem;
     color:#646666;
     font-size:0.26rem;
+    display: flex;
+    justify-content: flex-end;
 }
 .yuany a .mai .iconfont{
     color:#36a8fe;
     font-size:0.24rem;
-    padding-left:0.16rem;
+    padding-left:0.18rem;
 }
 /*退款金额*/
 .jine{
@@ -233,28 +242,31 @@ body{
     padding:0.16rem 0.24rem;
     box-sizing:border-box;
 }
-.jine .both{
-    width:0.1rem;
-    height:0.06rem;
-    float:left;
-    border-radius:0.08rem;
-    background-color:#44b5ff;
-    box-shadow:0 0.04rem 0.08rem 0.01rem #c3e8ff;
-    margin:0.24rem 0.1rem 0 0.1rem ;
+.jine .top{
+    height:0.52rem;
+    width:7.02rem;
+    display: flex;
+    align-items: center;
 }
-.jine .hs{
-    float:left;
+.jine .top .both{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.08rem;
+}
+.jine .top .hs{
     height:0.52rem;
     color:#474747;
     font-size:0.26rem;
     font-weight:bold;
     line-height:0.52rem;
 }
-.jine .hs span{
+.jine .top .hs span{
     color:#fcbc41;
 }
-.jine .text{
-    float:left;
+.jine .top .text{
     color:#afb1b2;
     font-size:0.22rem;
     line-height:0.52rem;
@@ -262,8 +274,7 @@ body{
 }
 .jine .price{
     height:0.52rem;
-    margin-top:0.52rem;
-    margin-left:0.29rem;
+    margin-left:0.18rem;
     color:#fcbc41;
     font-size:0.32rem;
     font-weight:bold;
@@ -285,6 +296,7 @@ body{
     padding:0.2rem 0.2rem;
     box-sizing:border-box;
     resize:none;
+    color:#333;
 }
 .shuom .sm::-webkit-input-placeholder {
     color: #b9c9d2;
@@ -292,64 +304,63 @@ body{
 }
 /*上传凭证*/
 /*字*/
-.sc{
+.scz{
     height:0.96rem;
     width:7.5rem;
     padding:0rem 0.24rem;
     box-sizing:border-box;
+    display: flex;
+    align-items: center;
 }
-.sc .both{
+.scz .both{
     width:0.1rem;
     height:0.06rem;
-    float:left;
-    border-radius:0.08rem;
-    background-color:#36dd7c;
-    box-shadow:0 0.04rem 0.08rem 0.01rem #c3f4da;
-    margin:0.44rem 0.1rem 0 0.1rem ;
+    border-radius:0.03rem;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.08rem;
 }
-.sc .hs{
-    float:left;
+.scz .hs{
     height:0.96rem;
     color:#474747;
     font-size:0.26rem;
     font-weight:bold;
     line-height:0.96rem;
 }
-.sc .hs span{
+.scz .hs span{
     color:#31d094;
 }
-.sc .text{
-    float:left;
+.scz .text{
     color:#afb1b2;
     font-size:0.22rem;
     line-height:0.96rem;
     height:0.96rem;
 }
 /*图*/
-.sc{
+.sct{
     height:1.02rem;
     width:7.5rem;
     padding:0 0.24rem;
     box-sizing:border-box;
 }
-.shangc{
+.sct .shangc{
     height:1.02rem;
     width:1.02rem;
     margin-left: 0.24rem;
 }
-.shangc .tu{
+.sct .shangc .tu{
     height:1.02rem;
     width:1.02rem;  
     border-radius:0.1rem;
     text-align:center;
     line-height:1.02rem;
-    background:-webkit-linear-gradient(left,#37e06f,#32d69a); 
-    background:linear-gradient(left,#37e06f,#32d69a); 
-    box-shadow: 0 0 0.22rem 0.02rem #b5f3cd;
+    background:linear-gradient(to right,#37d66f,#31d69a);
+    background:-webkit-linear-gradient(left,#37d66f,#31d69a);
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
 }
-.shangc .tu .iconfont{
+.sct .shangc .tu .iconfont{
     color:white;
-    font-size:0.42rem;
+    font-size:0.6rem;
 }
 .shangc .text{
     color:#afb1b2;
@@ -373,11 +384,11 @@ body{
     width:4.54rem;
     text-align:center;
     line-height:0.6rem;
-    border-radius:0.4rem;
-    box-shadow: 0 0 0.2rem 0.02rem #9aeeba;
     margin:0 auto;
-    background:-webkit-linear-gradient(left,#37e06f,#32d69a); 
-    background:linear-gradient(left,#37e06f,#32d69a); 
+    border-radius:0.3rem;
+    background:linear-gradient(to right,#37d66f,#31d69a);
+    background:-webkit-linear-gradient(left,#37d66f,#31d69a);
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
 }
 /*退款原因，固定块*/
 .bj{
@@ -425,18 +436,24 @@ box-sizing:border-box;
     width:7.02rem;
     border-bottom:0.02rem solid #fafafa;
     box-sizing:border-box;
+    display: flex;
+    justify-content: space-between;
 }
-.bj .kuai .shu .y{
-    height:0.06rem;
+.bj .kuai .shu .left{
+    height:0.88rem;
+    width:auto;
+    display: flex;
+    align-items: center;
+}
+.bj .kuai .shu .left .y{
     width:0.06rem;
-    background-color:#44b5ff;
-    border-radius:0.4rem;
-    box-shadow:0 0.04rem 0.08rem 0.01rem #ceebff;
-    float:left;
-    margin:0.40rem 0.1rem 0 0;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.08rem;
 }
-.bj .kuai .shu .wen{
-    float:left;
+.bj .kuai .shu .left .wen{
     color:#8a8c8d;
     font-size:0.24rem;
     height:0.88rem;
@@ -478,9 +495,9 @@ box-sizing:border-box;
     width:4.54rem;
     text-align:center;
     line-height:0.6rem;
-    border-radius:0.4rem;
-    box-shadow: 0 0 0.2rem 0.02rem #9aeeba;
     margin:0 auto;
-    background:-webkit-linear-gradient(left,#37e06f,#32d69a); 
-    background:linear-gradient(left,#37e06f,#32d69a); 
+    border-radius:0.3rem;
+    background:linear-gradient(to right,#37d66f,#31d69a);
+    background:-webkit-linear-gradient(left,#37d66f,#31d69a);
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
 }

@@ -23,10 +23,10 @@ body{
     color:#4ebbfe;
 }
 .header .iconzuojiantou{
-    font-size:0.38rem;
+    font-size:0.4rem;
     position: absolute;
     left:0.24rem;
-    top:0.06rem;
+    top:0rem;
     color:#36a8fe;
 }
 /*等待*/
@@ -53,13 +53,11 @@ body{
     padding-top:0.1rem;
     border-top:0.02rem solid #f1f4f5;
     box-sizing:border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.t .time .bao{
-    width:3.7rem;
-    margin:0 auto;
-}
-.t .time .bao .hs{
-    float:left;
+.t .time .hs{
     color:#4f5b64;
     font-size:0.26rem;
     font-weight:bold;
@@ -75,11 +73,10 @@ body{
 .t .time .both{
     width:0.1rem;
     height:0.06rem;
-    float:left;
     border-radius:0.08rem;
     background-color:#ff6666;
     box-shadow:0 0.04rem 0.08rem 0.01rem #fd9898;
-    margin:0.24rem 0.1rem 0 0.1rem ;
+    margin:0 0.1rem;
 }
 /*文字部分*/
 .text{
@@ -120,11 +117,14 @@ color:#46b1fe;
 font-size:0.2rem;
 float:right;
 margin-right:0.2rem;
+
+
+
+
 }
 .ann .an2{
     height:0.6rem;
     width:1.66rem;
-    background-color:#3bacfe;
     border-radius:0.4rem;
     text-align:center;
     line-height:0.6rem;
@@ -132,44 +132,52 @@ margin-right:0.2rem;
     font-size:0.2rem;
     float:right;
     margin-right:0.2rem;
+    background-color:#3bacfe;
+    box-shadow:0 0.05rem 0.12rem 0 rgba(59,172,254,0.43);
 }
 /*退款信息*/
-.tk{
+.tkz{
     width:7.5rem;
-    height:3.8rem;  
+    height:3.9rem;  
+    padding:0 0.24rem;
+    box-sizing:border-box;
 }
-.tk .top{
+.tkz .top{
     height:0.9rem;
     width:7.02rem;
-    margin-left:0.24rem;
+    display: flex;
+    align-items: center;
 }
-.tk .top .both{
+.tkz .top .both{
     width:0.1rem;
     height:0.06rem;
-    float:left;
-    border-radius:0.08rem;
-    background-color:#36dd7c;
-    box-shadow:0 0.04rem 0.08rem 0.01rem #c3f4da;
-    margin:0.42rem 0.06rem 0 0.1rem ;
+    border-radius:0.03rem;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.08rem;
 }
-.tk .top .text1{
-    float:left;
+.tkz .top .text1{
     color:#474747;
     height:0.9rem;
     width:1.2rem;
     font-size:0.26rem;
     line-height:0.9rem;
 }
-.tk .top .text1 span{
+.tkz .top .text1 span{
     color:#31d094;
 }
-.tk .kap{
+.tkz .tk{
+    width:7.02rem;
+    height:3rem;  
+    box-sizing:border-box;
+    border-bottom:0.02rem solid #f1f4f5;
+}
+.tkz .tk .kap{
     height:1.8rem;
     width:7.02rem;
-    margin-left:0.24rem;
     box-sizing:border-box;
 }
-.tk .kap .left{
+.tkz .tk .kap .left{
    width:1.74rem;
    height:1.74rem; 
    border-radius:0.2rem;
@@ -178,127 +186,126 @@ margin-right:0.2rem;
    margin-right:0.26rem;
    box-shadow:0 0 0.1rem 0.01rem #f5f8f9; 
 }
-.tk .kap .right{
+.tkz .tk .kap .right{
     width:5.02rem;
     height:1.78rem;
     float:left;
 }
-.tk .kap .right .name{
+.tkz .tk .kap .right .name{
     height:0.44rem;
     width:5.02rem;
     color:#646666;
     font-size:0.3rem;
     font-weight:bold;
 }
-.tk .kap .right .lw{
+.tkz .tk .kap .right .lw{
     height:0.36rem;
     width:5.02rem;
+    display: flex;
+    align-items: center;
 }
-.tk .kap .right .lw .yuan{
-    height:0.06rem;
+.tkz .tk .kap .right .lw .yuan{
     width:0.06rem;
-    background-color:#36a8fe;
-    border-radius:0.4rem;
-    box-shadow:0 0.04rem 0.08rem 0.01rem #d9f0ff;
-    float:left;
-    margin:0.14rem 0.1rem 0 0;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.08rem;
 }
-.tk .kap .right .lw .wenz{
+.tkz .tk .kap .right .lw .wenz{
     font-size:0.26rem;
     color:#36a8fe;
     height:0.36rem;
     line-height:0.36rem;
-    float:left;
 }
-.tk .kap .right .lw .wenz2{
+.tkz .tk .kap .right .lw .wenz2{
     font-size:0.2rem;
     color:#afb1b2;
     height:0.36rem;
     line-height:0.36rem;
-    float:left;
 }
-.tk .kap .right .price{
+.tkz .tk .kap .right .price{
     height:0.32rem;
     width:100%;
     margin-top:0.3rem;
 }
-.tk .kap .right .price .l{
+.tkz .tk .kap .right .price .l{
     height:100%;
     widows: 30%;
     float:left;
+    display: flex;
+    align-items: center;
 }
-.tk .kap .right .price .l .yuan1{
-    height:0.06rem;
+.tkz .tk .kap .right .price .l .yuan1{
     width:0.06rem;
-    background-color:#36a8fe;
-    border-radius:0.4rem;
-    box-shadow:0 0.04rem 0.08rem 0.01rem #d9f0ff;
-    float:left;
-    margin:0.12rem 0.1rem 0 0;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.08rem;
 }
-.tk .kap .right .price .l .wenz3{
+.tkz .tk .kap .right .price .l .wenz3{
     font-size:0.26rem;
     color:#afb1b2;
     height:0.32rem;
     line-height:0.32rem;
-    float:left;
 }
-.tk .kap .right .price .r{
+.tkz .tk .kap .right .price .r{
     width:30%;
     height:100%;
     float:right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
-.tk .kap .right .price .r .yuan2{
-    height:0.06rem;
+.tkz .tk .kap .right .price .r .yuan2{
     width:0.06rem;
-    background-color:#36d681;
-    border-radius:0.4rem;
-    box-shadow:0 0.04rem 0.08rem 0.01rem #c7f3de;
-    float:right;
-    margin:0.16rem 0.1rem 0 0;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.08rem;
 }
-.tk .kap .right .price .r .wenz3{
+.tkz .tk .kap .right .price .r .wenz3{
     height:0.32rem;
-    float:right;
     display:flex;
     justify-content: flex-end;
     align-items: center;
 }
-.tk .kap .right .price .r .wenz3 span{
+.tkz .tk .kap .right .price .r .wenz3 span{
     font-size:0.3rem;
     color:#afb1b2;
    /* height:0.32rem;
     line-height:0.32rem;*/
     
 }
-.tk .kap .right .price .r .wenz3 .iconfont{
-    font-size:0.10rem;
+.tkz .tk .kap .right .price .r .wenz3 .iconfont{
+    font-size:0.1rem;
     color:#afb1b2;
     margin-top:0.06rem;
   /*  height:0.32rem;
     line-height:0.32rem;*/
 }
-.tk .shi{
-    height:1.1rem;
+.tkz .tk .shi{
+    height:1.2rem;
     width:7.02rem;
-    float:right;
-    margin-right:0.24rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
-.tk .shi .yuan3{
-    height:0.06rem;
+.tkz .tk .shi .yuan3{
     width:0.06rem;
-    background-color:#36d681;
-    border-radius:0.4rem;
-    box-shadow:0 0.04rem 0.08rem 0.01rem #c7f3de;
-    float:right;
-    margin:0.5rem 0.1rem 0 0;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.08rem;
 }
-.tk .shi .wenz4{
-    float:right;
+.tkz .tk .shi .wenz4{
     color:#fbb548;
     font-size:0.24rem;
-    height:1.1rem;
-    line-height:1.1rem;
+    height:1.2rem;
+    line-height:1.2rem;
 }
 
 /*联系卖家*/
@@ -313,11 +320,11 @@ margin-right:0.2rem;
 .lianx .butt{
     height:0.6rem;
     width:4.54rem;
-    border-radius:0.4rem;
     margin:0.24rem auto 0;
-    background:-webkit-linear-gradient(left,#37e06f,#32d69a); 
-    background:linear-gradient(left,#37e06f,#32d69a); 
-    box-shadow: 0 0 0.24rem 0.02rem #94ebba;
+    border-radius:0.3rem;
+    background:linear-gradient(to right,#37d66f,#31d69a);
+    background:-webkit-linear-gradient(left,#37d66f,#31d69a);
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
     text-align:center;
     line-height:0.6rem;
     font-size:0.2rem;

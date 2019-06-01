@@ -51,9 +51,11 @@
     background:linear-gradient(to right,#33DF71,#2ED59A);
     background:-webkit-linear-gradient(left,#33DF71,#2ED59A);
     box-shadow:0 0 0.1rem 0.01rem rgba(51,222,118,0.75);
-    font-size:0.12rem;
     text-align:center;
-    line-height:0.24rem;
+    line-height:0.24rem; 
+}
+.addrBox .moren .dian .iconduihao{
+    font-size:0.12rem;
     color:#fff;
 }
 .addrBox .moren .mo{

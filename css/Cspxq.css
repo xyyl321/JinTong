@@ -1,3 +1,6 @@
+body{
+    background-color:#FBFEFF;
+}
 .dd{
     width: 7.5rem;
     height: 0.88rem;
@@ -7,14 +10,13 @@
    box-sizing: border-box;
     text-align: center;
     line-height: 0.88rem;
-     font-weight: bold;
     color: #58BFFE;
-    box-shadow: 0 0.02rem 0.07rem 0.07rem #ECF8FF;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
 }
 .dd a{
     float: left;
     line-height: 0.88rem;
-    font-size: 0.3rem;
+    font-size: 0.4rem;
     color: #36A8FE;
 }
 .tt{
