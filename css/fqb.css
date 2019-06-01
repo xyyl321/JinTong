@@ -37,6 +37,14 @@ body{
     margin-left: 0.2rem;
     text-align: center;
     border-radius: 0.1rem;
+    position: relative;
+}
+.kk .kk1 img{
+    width: 0.35rem;
+    height: 0.35rem;
+    position: absolute;
+    right: 0;
+    top: 0.1rem;
 }
 .kk .kk2{
     margin-left: 0;
