@@ -2,6 +2,8 @@
     width:7.5rem;
     height:0.88rem;
     position: relative;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
 }
 .top span{
     position: absolute;
@@ -56,7 +58,6 @@
     height:2.5rem;
     /* background-color: aquamarine; */
     margin-top:10px;
-    padding:0.01rem;
 }
 .hg .he{
     width:1.86rem;
@@ -152,7 +153,7 @@
     float: right;
     position: absolute;
     top:80px;
-    right:5px;
+    right:15px;
     border-radius: 0.2rem;
     line-height: 0.4rem;
     text-align: center
@@ -222,6 +223,8 @@
     width: 7.5rem;
     height: 2rem;
     margin-top: 0.2rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
 }
 .sp .spt{
     width: 1.97rem;
@@ -293,7 +296,7 @@
     font-size: 0.26rem;
     font-weight: bold;
     position: absolute;
-    right: 0;
+    right: 0.2rem;
     bottom: 0.2rem;
     color: #FBC26B;
 }

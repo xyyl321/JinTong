@@ -13,9 +13,9 @@ header{
 }
 header .back{
     display:block;
-    width:0.5rem;
-    height:0.5rem;
-    line-height:0.5rem;
+    width:0.4rem;
+    height:0.4rem;
+    line-height:0.4rem;
     position:absolute;
     top:0;
     bottom:0;

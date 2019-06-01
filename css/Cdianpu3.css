@@ -7,8 +7,9 @@
     box-sizing: border-box;
     text-align: center;
     line-height: 0.88rem;
-     font-weight: bold;
+    font-weight: bold;
     color: #58BFFE;
+    position: fixed;
 }
 .dd a{
     float: left;
@@ -240,29 +241,32 @@
     line-height: 0.35rem;
 }
 .dh{
-    width: 7.5rem;
-    height: 1rem;
+    width:7.5rem;
+    height:0.98rem;
     background: #F6FBFF;
     position: fixed;
     bottom: 0;
     display: flex;
     justify-content: space-around;
-}
-.dh .dh1{
-    width: 0.94rem;
-    height: 1rem;
-}
-.dh .dh1 a{
+    }
+    .dh .dh1{
+    width:0.94rem;
+    height:0.98rem;
+    }
+    .dh .dh1 a{
+    display:block;
+    width:0.94rem;
+    height:0.98rem;
+    display:flex;
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.dh .dh1 i{
+    justify-content:center;
+    align-items:center;
+    }
+    .dh .dh1 i{
     font-size: 0.5rem;
-    color: #62C6FE;
-}
-.dh .dh1 span{
+    color: #BAE6FF;
+    }
+    .dh .dh1 span{
     font-size: 0.26rem;
-    color: #62C6FE;
-}
+    color: #BAE6FF;
+    }
