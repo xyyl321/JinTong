@@ -27,9 +27,9 @@
 }
 .lianBox .lian .dians{
     width:0.1rem;
-    height:0.05rem;
-    border-radius:0.025rem;
-    background-color:#45B5FD;
+    height:0.06rem;
+    border-radius:0.03rem;
+    background-color:rgba(68,181,255);
     box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
     margin-right:0.1rem;
 }

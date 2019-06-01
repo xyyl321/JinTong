@@ -33,7 +33,7 @@ nav{
     height:0.9rem;
     margin-top:0.88rem;
     margin-bottom:0.42rem;
-    background-color:#FAFDFF;
+    background-color:#fbfeff;
     box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
 }
 nav .navBox{
@@ -123,6 +123,11 @@ section .longCon .ping .sp1{
     font-size:0.26rem;
     font-weight:bold;
     color:#38A8FC;
+}
+section .longCon .ping .bai{
+    font-size:0.26rem;
+    font-weight:bold;
+    color:#b9e1ff;
 }
 section .longCon .fei{
     width:2.51rem;

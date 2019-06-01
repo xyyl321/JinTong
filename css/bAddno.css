@@ -53,7 +53,7 @@ header .iconzuojiantou{
     border-radius:0.3rem;
     background:linear-gradient(to right,#37d66f,#31d69a);
     background:-webkit-linear-gradient(left,#37d66f,#31d69a);
-    box-shadow:0 0.05rem 0.12rem 0 rgba(59,172,254,0.43);
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
     border:0;
     outline:none;
     font-size:0.2rem;
