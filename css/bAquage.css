@@ -104,12 +104,12 @@ section .long .longCon .ping{
     align-items:center;
 }
 section .longCon .dian{
-    width:0.05rem;
-    height:0.05rem;
+    width:0.06rem;
+    height:0.06rem;
     border-radius:50%;
-    background-color:#45B5FD;
+    background-color:rgb(68,181,255);
     box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
-    margin-right:0.05rem;
+    margin-right:0.07rem;
 }
 section .longCon .dian1{
     margin-left:0.5rem;
@@ -149,7 +149,7 @@ section .longCon .shou{
     align-items:center;
 }
 section .longCon .dian2{
-    background-color:#32D582;
+    background-color:rgb(54,214,129);
     box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
 }
 section .longCon .shou .spp{
