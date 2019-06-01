@@ -11,8 +11,9 @@
     top:0;
     z-index:999;
 
-    
+
     display:none;
+
 }
 .zt .kuai2{
     height:4.34rem;
@@ -43,23 +44,31 @@ box-sizing:border-box;
     color:#d1dde6;
     font-size:0.24rem;
 }
+
+
 .zt .kuai2 .shu{
     height:0.88rem;
     width:7.02rem;
     border-bottom:0.02rem solid #fafafa;
     box-sizing:border-box;
+    display: flex;
+    justify-content: space-between;
 }
-.zt .kuai2 .shu .y{
-    height:0.06rem;
+.zt .kuai2 .shu .left{
+    height:0.88rem;
+    width:auto;
+    display: flex;
+    align-items: center;
+}
+.zt .kuai2 .shu .left .y{
     width:0.06rem;
-    background-color:#44b5ff;
-    border-radius:0.4rem;
-    box-shadow:0 0.04rem 0.08rem 0.01rem #ceebff;
-    float:left;
-    margin:0.40rem 0.1rem 0 0;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.08rem;
 }
-.zt .kuai2 .shu .wen{
-    float:left;
+.zt .kuai2 .shu .left .wen{
     color:#8a8c8d;
     font-size:0.24rem;
     height:0.88rem;
@@ -74,8 +83,11 @@ box-sizing:border-box;
     border:0.06rem solid #3bb1ff;
     box-sizing:border-box;
     margin-top:0.32rem;
-    text-align:center;
     float:right;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
 }
 .zt .kuai2 .shu  .r .ry{
     display:block;
@@ -83,7 +95,6 @@ box-sizing:border-box;
     width:0.06rem;
     background-color:white;
     border-radius:0.1rem;
-    margin:0.02rem auto;
 }
 .zt .kuai2  .guanb{
     width:7.5rem;
@@ -98,9 +109,9 @@ box-sizing:border-box;
     width:4.54rem;
     text-align:center;
     line-height:0.6rem;
-    border-radius:0.4rem;
-    box-shadow: 0 0 0.2rem 0.02rem #9aeeba;
     margin:0 auto;
-    background:-webkit-linear-gradient(left,#37e06f,#32d69a); 
-    background:linear-gradient(left,#37e06f,#32d69a); 
+    border-radius:0.3rem;
+    background:linear-gradient(to right,#37d66f,#31d69a);
+    background:-webkit-linear-gradient(left,#37d66f,#31d69a);
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
 }

@@ -56,11 +56,13 @@ body{
     font-size:0.2rem;
     color:white;
     background-color:#3bacfe;
+    box-shadow:0 0.05rem 0.12rem 0 rgba(59,172,254,0.43);
 }
 .daoh .box .son1{
     background-color:#e7f6ff;
     color:#3bacfe;
     font-size:0.2rem;
+    box-shadow:none;
 }
 /*优惠卷卡片*/
 .ka{
