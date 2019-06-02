@@ -13,7 +13,7 @@ body{
     background:#FBFEFF;
 }
 .header_w{
-    width: 7.1rem;
+    width: 7.02rem;
     height: 100%;
     text-align: center;
     line-height: 0.88rem;
@@ -35,7 +35,7 @@ body{
     margin-top: 0.88rem;
 }
 .select_w{
-    width: 7.1rem;
+    width: 7.02rem;
     height: 100%;
     margin: 0 auto;
     line-height: 0.6rem;
@@ -146,7 +146,7 @@ body{
     float: left;
 }
 .sort_w{
-    width: 7.1rem;
+    width: 7.02rem;
     height: 100%;
     margin: 0 auto;
 }
@@ -191,7 +191,7 @@ body{
     z-index: 9;
 }
 .footer_w{
-    width: 7.1rem;
+    width: 7.02rem;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -206,10 +206,10 @@ body{
     align-items:center;
 }
 .footer_w .iconfont{
-    font-size: 0.44rem;
+    font-size: 0.5rem;
     color: #BAE6FF;
 }
 .footer_w span{
-    font-size: 0.24rem;
+    font-size: 0.26rem;
     color: #BAE6FF;
 }

@@ -3,7 +3,7 @@
     width: 100%;
     height: 0.88rem;
     float: left;
-    background: #fff;
+    background:#FBFEFF;
     position: fixed;
     box-shadow: 0 0.03rem 0.43rem 0 rgba(41,167,255,0.13);
     z-index: 9;
@@ -12,12 +12,12 @@ body{
     background:#FBFEFF;
 }
 .header_w{
-    width: 7.1rem;
+    width: 7.02rem;
     height: 100%;
     text-align: center;
     line-height: 0.88rem;
     margin: 0 auto;
-    font-size: 0.36rem;
+    font-size: 0.38rem;
     color: #4ebbfe;
 }
 .header_w a .iconfont{
@@ -52,9 +52,12 @@ body{
     font-size: 0.3rem;
     text-align: center;
     line-height: 4.8rem;
+    font-weight: bold;
 }
 .address_w .to span:first-child{
     color: #646666;
+    padding-bottom: 0.27rem;
+    border-bottom: 0.05rem solid #3bacfe;
 }
 .address_w .to span:last-child{
     color: #c9cbcc;
@@ -64,19 +67,21 @@ body{
     height: 1.12rem;
     border-bottom: 0.01rem solid #eef1f2;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .address_w .pul .iconfont{
     font-size: 0.26rem;
-    color: #34a2ff;
+    color: #40b1ff;
     float: left;
-    margin: 0.1rem 0 0 0.2rem;
 }
 .address_w .pul .num{
-    font-size: 0.16rem;
-    color: #34a2ff;
+    font-size: 0.22rem;
+    color: #40b1ff;
     float: left;
+    margin-left: 0.32rem;
     line-height: 1.12rem;
-    padding-left: 0.3rem;
 }
 .address_w .pul input{
     width: 4rem;
@@ -87,6 +92,11 @@ body{
     color: #c9cbcc;
     border: none;
     margin-top: 0.07rem;
+}
+.address_w .pul input::-webkit-input-placeholder{
+    color: #000000;
+    opacity: 0.2;
+    font-size: 0.22rem;
 }
 .address_w .pul .sure{
     width: 100%;
@@ -107,12 +117,13 @@ body{
     margin-left: 0.9rem;;
 }
 .address_w .pul .dian{
-    width: 0.08rem;
-    height: 0.08rem;
-    background: #34a2ff;
     float: left;
-    margin-top: 0.48rem;
-    border-radius: 50%;
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.07rem;
 }
 .address_w .pul .mess{
     margin-left: 0.3rem;
@@ -126,30 +137,43 @@ body{
     height: 0.46rem;
     display: block;
     float: right;
-    background: #37df73;
     font-size: 0.2rem;
     color: #fff;
     border-radius: 0.23rem;
     text-align: center;
     line-height: 0.46rem;
-    margin-top: 0.3rem;
+    background: linear-gradient(to right,#37e06f,#31d69a);
+    background: -webkit-linear-gradient(to right,#37e06f,#31d69a);
+    box-shadow: 0px 4px 20px 0px 
+		rgba(55, 223, 116, 0.75);
+	border-radius: 23px;
 }
-.address_w .shu{
+.address_w .bton{
+    width: 100%;
+    height: 0.5rem;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.39rem;
+}
+.shu{
     width: 3.85rem;
     height: 0.5rem;
     float: left;
     border-radius: 0.25rem;
-    color: #4ebbfe;
+    color: #3bacfe;
     background: #e7f6ff;
     font-size: 0.2rem;
     border: none;
-    margin: 0.4rem 0 0 0.6rem;
 }
 .menu{
     width: 100%;
     height: 0.3rem;
-    margin-top: 0.3rem;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .menu input{
     float: left;
@@ -158,7 +182,8 @@ body{
 .menu span{
     text-align: center;
     line-height: 0.4rem;
-    font-size: 0.2rem;
+    font-size: 0.22rem;
     float: left;
-    color: #afb1b2;
+    color: #000000;
+    opacity: 0.3;
 }

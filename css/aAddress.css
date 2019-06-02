@@ -2,7 +2,7 @@ body{
     background-color:#FBFEFF;
 }
 header{
-    width:7.5rem;
+    width:7.02rem;
     height:0.88rem;
     background-color:#FBFEFF;
     font-size:0.38rem;
@@ -26,9 +26,8 @@ header .iconzuojiantou{
     font-size:0.4rem;
     color:#4FBAFC;
 }
-
 .select_w{
-    width: 7.1rem;
+    width: 7.02rem;
     height: 0.6rem;
     float: left;
     line-height: 0.6rem;
@@ -82,7 +81,7 @@ header .iconzuojiantou{
 }
 .ditu{
     display:block;
-    width:7.5rem;
+    width:7.02rem;
     height:4rem;
 }
 .curBox{
@@ -160,5 +159,4 @@ header .iconzuojiantou{
     border-radius:50%;
     background-color:#32D582;
     box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
-
 }

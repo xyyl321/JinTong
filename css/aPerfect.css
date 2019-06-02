@@ -3,7 +3,7 @@
     width: 100%;
     height: 0.88rem;
     float: left;
-    background: #fff;
+    background:#FBFEFF;
     position: fixed;
     box-shadow: 0 0.03rem 0.43rem 0 rgba(41,167,255,0.13);
     z-index: 9;
@@ -12,12 +12,12 @@ body{
     background:#FBFEFF;
 }
 .header_w{
-    width: 7.1rem;
+    width: 7.02rem;
     height: 100%;
     text-align: center;
     line-height: 0.88rem;
     margin: 0 auto;
-    font-size: 0.36rem;
+    font-size: 0.38rem;
     color: #4ebbfe;
 }
 .header_w a .iconfont{
@@ -51,6 +51,7 @@ body{
     font-size: 0.3rem;
     text-align: center;
     line-height: 4.8rem;
+    font-weight: bold;
 }
 .address_w .to span{
     color: #646666;
@@ -60,29 +61,34 @@ body{
     height: 1.12rem;
     border-bottom: 0.01rem solid #eef1f2;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .address_w .pul .iconfont{
     font-size: 0.26rem;
     color: #34a2ff;
-    float: left;
-    margin: 0.1rem 0 0 0.2rem;
 }
 .address_w .pul .num{
-    font-size: 0.16rem;
-    color: #34a2ff;
+    font-size: 0.22rem;
+    color: #40b1ff;
     float: left;
+    margin-left: 0.32rem;
     line-height: 1.12rem;
-    padding-left: 0.3rem;
 }
 .address_w .pul input{
-    width: 4rem;
+    width: 5rem;
     height: 1rem;
     float: left;
     padding-left: 0.2rem;
-    font-size: 0.2rem;
     color: #c9cbcc;
     border: none;
     margin-top: 0.07rem;
+}
+.address_w .pul input::-webkit-input-placeholder{
+    color: #000000;
+    opacity: 0.3;
+    font-size: 0.22rem;
 }
 .address_w .pul .sure{
     width: 100%;
@@ -130,31 +136,45 @@ body{
     line-height: 0.46rem;
     margin-top: 0.3rem;
 }
-.address_w .shu{
+.address_w .but{
+    width: 100%;
+    height: 0.88rem;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.38rem;
+}
+.address_w .but a{
     width: 3.85rem;
     height: 0.5rem;
+    display: block;
     float: left;
     border-radius: 0.25rem;
     color: #fff;
+    line-height: 0.5rem;
     background: #4ebbfe;
-    font-size: 0.2rem;
-    border: none;
-    margin: 0.4rem 0 0 0.6rem;
+    font-size: 0.2rem;box-shadow: 0px 5px 15px 0px 
+    rgba(59, 172, 254, 0.4);
 }
 .menu{
     width: 100%;
     height: 0.3rem;
-    margin-top: 0.3rem;
     float: left;
+    margin-top: 0.32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .menu input{
     float: left;
-    color:  #e7f6ff;
+    color: #e7f6ff;
 }
 .menu span{
     text-align: center;
     line-height: 0.4rem;
-    font-size: 0.2rem;
+    font-size: 0.22rem;
     float: left;
-    color: #afb1b2;
+    color: #000000;
+    opacity: 0.3;
 }
