@@ -189,14 +189,16 @@
    background:linear-gradient(left,#37df73,#32d698);
    background:-webkit-linear-gradient(left,#37df73,#32d698);
    border:0;
+   float:right;
    outline:none;
    border-radius: 0.3rem;
    display: block;
-   margin:0.24rem 0  0  0.71rem;
+   margin:0.24rem 0  0  0.5rem;
    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
 }
 .tab  .order{
     background:0;
+    float:right;
     background-color:#3bacfe;
     margin-left:0.29rem;
     box-shadow:0 0.05rem 0.12rem 0 rgba(59,172,254,0.43);

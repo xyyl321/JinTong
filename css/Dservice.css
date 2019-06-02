@@ -244,6 +244,7 @@ body{
 		rgba(223, 223, 223, 0.43);
     border-radius: 0.1rem;
     margin-top:0.24rem;
+    margin-bottom:1.3rem;
 }
 .team .team2 .team3{
     width:100%;
@@ -334,6 +335,8 @@ body{
     padding:0 0.24rem;
     box-sizing:border-box;
     margin-top:0.33rem;
+    position:fixed;
+    bottom:0;
 }
 .pay .samll{
     float:right;

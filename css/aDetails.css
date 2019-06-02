@@ -12,12 +12,12 @@ body{
     background:#FBFEFF;
 }
 .header_w{
-    width: 7.1rem;
+    width: 7.02rem;
     height: 100%;
     text-align: center;
     line-height: 0.88rem;
     margin: 0 auto;
-    font-size: 0.36rem;
+    font-size: 0.38rem;
     color: #4ebbfe;
 }
 .header_w a .iconfont{
@@ -29,11 +29,12 @@ body{
 /* content */
 .bag{
     width: 100%;
-    height: 7rem;
+    height: 7.01rem;
     float: left;
+    margin-top: 0.88rem;
 }
 .bag_w{
-    width: 7.1rem;
+    width: 7.02rem;
     height: 100%;
     margin: 0 auto;
     position: relative;
@@ -62,6 +63,7 @@ body{
     margin: 0 auto;
     align-items:center;
     margin-left: 0.2rem;
+    position: relative;
 }
 .dang .dians{
     width:0.1rem;
@@ -79,6 +81,31 @@ body{
 .dang .sp1{
     color:#4E5A63;
 }
+.dang .more{
+    width: 1.9rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+}
+.dang .more a{
+    width: 1.9rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more span{
+    color: #3bacfe;
+    font-size: 0.22rem;
+}
+.dang .more .iconfont{
+    color: #36a8fe;
+    opacity: 0.5;
+    font-size: 0.24rem;
+    float: left;
+}
 .dang .yh{
     color:rgb(68,181,255); 
 }
@@ -93,7 +120,7 @@ body{
     float: left;
 }
 .des_w{
-    width: 7.1rem;
+    width: 7.02rem;
     height: 100%;
     margin: 0 auto;
     border-bottom: 0.01rem solid #f0f5f7;
@@ -151,7 +178,7 @@ body{
 	font-size: 0.22rem;
     color: #9ed5ff;
     position: absolute;
-    top: 0.63rem;
+    top: 0.43rem;
     right: 0;
 }
 .des_w .pric{
@@ -172,7 +199,7 @@ body{
     float: left;
 }
 .tw_w{
-    width: 7.1rem;
+    width: 7.02rem;
     height: 100%;
     margin: 0 auto;
 }
@@ -214,7 +241,7 @@ body{
     background: #FBFEFF;
 }
 .boot_w{
-    width: 7.1rem;
+    width: 7.02rem;
     height: 100%;
     margin: 0 auto;
 }
@@ -269,12 +296,12 @@ body{
     margin-top: 0.26rem;
     float: left;
     font-size: 0.24rem;
-    color: #ffffff;
+    color: #ffffff; 
+    box-shadow: 0px 4px 20px 0px 
+    rgba(55, 223, 116, 0.75);
 }
-
-
 .zi{
-    width: 7.5rem;
+    width: 7.02rem;
     height: 3.56rem;
     background: #fff;
     padding: 0 0.24rem;
@@ -302,20 +329,38 @@ body{
     margin-top: 0.1rem;
     float: left;
 }
-.zi s{
+.zi em{
+    width: 2.6rem;
     color: #AFB1B2;
     font-size: 0.2rem;
     display: block;
-    margin-top: 0.1rem;
     float: left;
-    margin-left: 0.2rem;
+    display: flex;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+}
+.zi em span{
+    background: #e8f6ff;	
+    height: 0.2rem;
+    float: left;
+	font-size: 0.2rem;
+	line-height: 0.2rem;
+    color: #41b2fc;
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.2rem;
+    margin-left: 0.3rem;
+}
+.zi em span:last-child{
+    color: #36d681;
+    background: #e7faf2;
 }
 .zs .posi{
     width: 1.5rem;
     height: 0.56rem;
     position: absolute;
     right: 0.2rem;
-    top: 8rem;
+    top: 9.3rem;
 }
 .zs .posi .dian{
     width: 0.05rem;
@@ -345,7 +390,9 @@ body{
     width: 7rem;
     height: 0.85rem;
     float: left;
+    margin-top: 0.22rem;
     border-bottom: 0.01rem solid #F2F7F9;
+    border-top: 0.01rem solid #F2F7F9;
 }
 .zi .zz i{
     float: left;
@@ -398,7 +445,7 @@ body{
     margin-left: 0.5rem;
 }
 .dx{
-    width: 7.5rem;
+    width: 7.02rem;
     height: 1.08rem;
     background:#F1FAFF;
     margin: 0 auto;

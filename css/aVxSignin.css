@@ -3,7 +3,7 @@
     width: 100%;
     height: 0.88rem;
     float: left;
-    background: #fff;
+    background:#FBFEFF;
     position: fixed;
     z-index: 9;
     box-shadow: 0 0.03rem 0.43rem 0 rgba(41,167,255,0.13);
@@ -12,12 +12,12 @@ body{
     background:#FBFEFF;
 }
 .header_w{
-    width: 7.1rem;
+    width: 7.02rem;
     height: 100%;
     text-align: center;
     line-height: 0.88rem;
     margin: 0 auto;
-    font-size: 0.36rem;
+    font-size: 0.38rem;
     color: #4ebbfe;
 }
 .header_w a .iconfont{
@@ -48,48 +48,67 @@ body{
     border-bottom: 0.01rem solid #eef1f2;
 }
 .address_w .to span{
-    color: #646666;
-    font-size: 0.3rem;
     text-align: center;
     line-height: 4.8rem;
+	font-size: 0.32rem;
+	color: #000000;
+    opacity: 0.5;
+    font-weight: bold;
 }
 .address_w .pul{
     width: 100%;
-    height: 3.53rem;
+    height: 1.56rem;
     float: left;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.28rem;
 }
 .address_w .pul .iconfont{
     font-size: 0.88rem;
     color:  #36c444;
     float: left;
-    margin: 0.3rem 2.16rem 0.38rem;
-
+    padding-top: 0.28rem;
 }
-.address_w .pul .qx{
-    width: 4.5rem;
+.address_w .qx{
+    width: 100%;
     height: 0.7rem;
     border-bottom: 0.01rem solid #eef1f2;
     float: left;
-    color: #979899;
     font-size: 0.26rem;
-    text-align: center;
     font-weight: blod;
+    text-align: center;
 }
-.address_w .pul .qx span{
-    width: 0.05rem;
-    height: 0.05rem;
-    background: #36d681;
+.address_w .qxx{
+    width: 100%;
+    height: 0.7rem;
     float: left;
-    margin-top: 0.4rem;
-    margin-left: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.address_w .pul .sure{
+.address_w .qxx .dian{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+}
+.address_w .qxx span{
+    float: left;
+	font-size: 0.24rem;
+	color: #000000;
+    opacity: 0.3;
+    margin-left: 0.15rem;
+}
+.address_w .sure{
     width: 100%;
     height: 0.52rem;
     float: left;
     margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
 }
-.address_w .pul .sure a span{
+.address_w .sure a span{
     width: 1.32rem;
     height: 0.52rem;
     display: block;
@@ -99,5 +118,5 @@ body{
     line-height: 0.5rem;
     color: #4ebbfe;
     float: left;
-    margin-left: 0.9rem;;
+    margin-left: 0.35rem;
 }
