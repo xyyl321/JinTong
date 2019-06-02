@@ -185,6 +185,7 @@ body{
     box-sizing:border-box;
     border-radius: 0.08rem;
     outline:none;
+    resize:none;
 }
 ::-webkit-input-placeholder {
     color: #b9c9d2;
@@ -197,6 +198,7 @@ body{
     padding:0 0.24rem;
     box-sizing:border-box; 
     margin-top:0.43rem;
+    margin-bottom:1.89rem;
 }
 .order .coupon{
     width:100%;
@@ -247,14 +249,13 @@ body{
 }
 /* 立即付款开始 */
 .refer{
-    margin-top:0.91rem;
     width:7.5rem;
     height:1.07rem;
     background:#F1FAFF;
     padding:0 0.24rem;
     box-sizing:border-box;
-    /* position: fixed;
-    bottom:0; */
+    position: fixed;
+    bottom:0;
 }
 .refer .left{
     width:auto;
