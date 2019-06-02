@@ -45,10 +45,12 @@ body{
 .box .box1 .vb{
     margin-left:0.2rem;
     font-weight: bolder;
+    font-size: 0.36rem;
 }
 .box .box1 .vc{
     font-weight: bolder;
     color:#44b5ff;
+    font-size: 0.36rem;
 }
 .box .box4{
     width:7rem;
@@ -87,10 +89,12 @@ body{
 .big .vz .va{
     margin-left:0.2rem;
     font-weight: bolder;
+    font-size: 0.36rem;
 }
 .big .vz .vs{
     font-weight: bolder;
     color:#34da87;
+    font-size: 0.36rem;
 }
 .big .vd{
     width:6.84rem;
@@ -129,10 +133,12 @@ body{
 .vf .vg .vh{
     margin-left:0.2rem;
     font-weight: bolder;
+    font-size: 0.36rem;
 }
 .vf .vg .vj{
     font-weight: bolder;
     color:#34da87;
+    font-size: 0.36rem;
 }
 .vf .vg .vq{
     width:1.24rem;
@@ -151,35 +157,41 @@ body{
     height:2.95rem;
     /* background-color: thistle; */
 }
-.vf .vr .icon-shangjialiebiao{
+.vf .vr .iconwode{
     line-height: 0.7rem;
     margin-left:0.4rem;
-    color: rgba(22,197,255,0.63)
+    color: rgba(22,197,255,0.63);
+    font-size: 0.4rem;
 }
 .vf .vr .ve{
     margin-left:0.2rem;
     color: #000000;
-	opacity: 0.6;
+    opacity: 0.6;
+    font-size: 0.3rem;
 }
-.vf .vr .icon-dingwei{
+.vf .vr .icondizhi{
     color:#34da87;
     line-height: 0.7rem;
     margin-left:0.4rem;
+    font-size: 0.4rem;
 }
 .vf .vr .sh{
     margin-left:0.2rem;
     color: #000000;
-	opacity: 0.6;
+    opacity: 0.6;
+    font-size: 0.3rem;
 }
-.vf .vr .icon-z{
+.vf .vr .iconxiangji{
     color:rgba(254,206,80,0.63);
     line-height: 0.7rem;
     margin-left:0.4rem;
+    font-size: 0.4rem;
 }
 .vf .vr .ed{
     margin-left:0.2rem;
     color: #000000;
-	opacity: 0.6;
+    opacity: 0.6;
+    font-size: 0.3rem;
 }
 .bg{
     width:7.5rem;
@@ -206,10 +218,12 @@ body{
 .bg .kl .hy{
     margin-left:0.2rem;
     font-weight: bolder;
+    font-size: 0.36rem;
 }
 .bg .kl .jk{
     font-weight: bolder;
     color:#34da87;
+    font-size: 0.36rem;
 }
 .bg .ki{
     width:7rem;

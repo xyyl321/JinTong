@@ -22,7 +22,6 @@ body{
 .tt{
     width: 7.5rem;
     height: 6.6rem;
-    background: #ffffff;
     margin-top: 0.3rem;
     position: relative;
 }
@@ -36,7 +35,6 @@ body{
 .zi{
     width: 7.5rem;
     height: 3.56rem;
-    background: #fff;
     padding: 0 0.24rem;
     box-sizing: border-box;
 }
@@ -128,9 +126,11 @@ body{
 }
 .zi .zx{
     width: 7rem;
-    height: 0.85rem;
-    padding-top: 0.26rem;
-    box-sizing: border-box;
+    height: 0.5rem;
+    display: flex;
+    margin-top: 0.1rem;
+    align-items: center;
+    line-height: 0.5rem;
 }
 .zi .zx .yuan{
     width: 0.05rem;
@@ -138,7 +138,6 @@ body{
     background: #3AD683;
     border-radius: 50%;
     float: left;
-    margin-top: 0.25rem;
 }
 .zi .zx span{
     float: left;
@@ -175,12 +174,13 @@ body{
 .dx .dx1 a{
     flex-direction: column;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 .dx .dx1 i{
     font-size: 0.5rem;
     color: #64B7FF;
+    margin-top: 0.1rem;
 }
 .dx .dx1 span{
     font-size: 0.2rem;

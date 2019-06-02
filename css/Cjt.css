@@ -25,7 +25,7 @@ body{
 .fl{
     width: 7.5rem;
     height: 0.88rem;
-    background: #fff;
+    background-color:#FBFEFF;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,11 +52,9 @@ body{
 .tt{
     width: 7.5rem;
     height: 2.45rem;
-    background: #fff;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
 }
 .tt .tt1{
     width: 1.45rem;
@@ -77,7 +75,6 @@ body{
 .qb{
     width: 7.5rem;
     height: 0.76rem;
-    background: #fff;
     padding: 0 0.24rem;
     box-sizing: border-box;
 }
@@ -142,7 +139,7 @@ body{
     text-overflow:ellipsis;
 }
 .sp .xian{
-    width: 4.9rem;
+    width: 4.8rem;
     height: 0.98rem;
     margin-left: 2.2rem;
     margin-top: 0.15rem;
@@ -151,6 +148,11 @@ body{
     box-sizing: border-box;
     display: flex;
     position: relative;
+}
+.sp .xian .zzt{
+    width: 100%;
+    height: 0.3rem;
+    display: flex;
 }
 .sp .xian .dian{
     width: 0.06rem;

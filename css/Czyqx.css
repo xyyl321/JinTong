@@ -110,6 +110,12 @@ body{
     display: flex;
     position: relative;
 }
+.sp .xian .zzt{
+    width: 100%;
+    height: 0.3rem;
+    display: flex;
+}
+
 .sp .xian .dian{
     width: 0.06rem;
     height: 0.06rem;

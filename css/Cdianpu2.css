@@ -1,22 +1,25 @@
 body{
     background-color:#FBFEFF;
 }
-.dd{
-    width: 7.5rem;
-    height: 0.88rem;
-    background: #FBFEFF;
-    padding:0 0.24rem;
-    font-size: 0.36rem;
-   box-sizing: border-box;
-    text-align: center;
-    line-height: 0.88rem;
-    color: #58BFFE;
+.top{
+    width:7.5rem;
+    height:0.88rem;
+    position: relative;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
 }
-.dd a{
-    float: left;
-    line-height: 0.88rem;
+.top span{
+    position: absolute;
+    top:0.1rem;
+    left:3.1rem;
     font-size: 0.4rem;
-    color: #36A8FE;
+    color:#4ebbfe;
+}
+.top .iconzuojiantou{
+    line-height: 0.8rem;
+    margin-left:0.01rem;
+    font-size: 0.4rem;
+    color:#36a8fe;
 }
 .searchBox{
     width:7.02rem;
@@ -203,6 +206,8 @@ body{
     top:0.1rem;
     line-height: 0.5rem;
     text-align: center;
+    box-shadow: 0px 0.05rem 0.12rem 0px 
+        rgba(59, 172, 254, 0.43);
 }
 .xi .yu .ky .ki{
     color:#3bacfe;
