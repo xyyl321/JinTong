@@ -4,7 +4,7 @@
     list-style:none;
 }
 body{
-    color:#fbfeff;
+    background-color:#fbfeff;
 }
 
 /* 导航栏开始 */
@@ -143,15 +143,16 @@ float:left;
 .nim .left{
 height:0.8rem;
 width:auto;
+display: flex;
+align-items: center;
 }
 .nim .left .yuan{
 width:0.24rem;
 height:0.24rem;
 box-sizing:border-box;
 border:0.02rem solid #59c3fe;
-float:left;
+
 border-radius:0.3rem;
-margin-top:0.26rem;
 }
 .nim .left .text1{
     height:0.8rem;
@@ -159,7 +160,7 @@ margin-top:0.26rem;
     font-size:0.22rem;
     line-height:0.8rem;
     margin-left:0.08rem;
-    float:left;
+ 
 }
 
 .nim .right{
