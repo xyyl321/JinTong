@@ -173,7 +173,7 @@ body{
 	opacity: 0.3;
 }
 .des_w .xq .deta{
-    width: 1.13rem;
+    width: auto;
 	height: 0.16rem;
 	font-size: 0.22rem;
     color: #9ed5ff;
@@ -305,6 +305,7 @@ body{
     height: 3.56rem;
     background: #fff;
     padding: 0 0.24rem;
+    float: left;
     box-sizing: border-box;
 }
 .zi .zs{
@@ -330,7 +331,7 @@ body{
     float: left;
 }
 .zi em{
-    width: 2.6rem;
+    width: auto;
     color: #AFB1B2;
     font-size: 0.2rem;
     display: block;
@@ -392,7 +393,6 @@ body{
     float: left;
     margin-top: 0.22rem;
     border-bottom: 0.01rem solid #F2F7F9;
-    border-top: 0.01rem solid #F2F7F9;
 }
 .zi .zz i{
     float: left;

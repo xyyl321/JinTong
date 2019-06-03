@@ -29,7 +29,7 @@ header .iconzuojiantou{
 .select_w{
     width: 7.02rem;
     height: 0.6rem;
-    float: left;
+    margin: 0 auto;
     line-height: 0.6rem;
 }
 .select_w a span{
@@ -38,7 +38,6 @@ header .iconzuojiantou{
     color: #36a8fe;
     display: block;
     line-height: 0.6rem;
-    margin-left: 0.4rem;
 }
 .select_w .iconfont{
     font-size: 0.28rem;
@@ -47,7 +46,7 @@ header .iconzuojiantou{
     color: #36a8fe;
 }
 .select_w .put{
-    width: 5.64rem;
+    width: auto;
     height: 0.6rem;
     float: right;
     background-color:#F1F9FF;
@@ -55,15 +54,15 @@ header .iconzuojiantou{
     border-radius: 0.3rem;
 }
 .select_w .put input{
-    width: 5.93rem;
+    width: 5.63rem;
     height: 0.6rem;
     float: left;
     border-radius: 0.3rem;
     border:0;
     outline:none;
     background-color:transparent;
-    padding-left: 0.35rem;
     font-size:0.24rem;
+    padding-left: 0.24rem;
     color:rgba(0,0,0,0.5);
     float: left;
 }
@@ -81,8 +80,9 @@ header .iconzuojiantou{
 }
 .ditu{
     display:block;
-    width:7.02rem;
+    width:7.5rem;
     height:4rem;
+    margin: 0 auto;
 }
 .curBox{
     width:7.02rem;
